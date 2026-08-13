@@ -1,0 +1,3962 @@
+[
+ {
+  "id": "a1fmsua9",
+  "text": "achieve",
+  "kind": "word"
+ },
+ {
+  "id": "a1jbayx",
+  "text": "allow",
+  "kind": "word"
+ },
+ {
+  "id": "a1bozyj9",
+  "text": "appear",
+  "kind": "word"
+ },
+ {
+  "id": "a1br9p5m",
+  "text": "attend",
+  "kind": "word"
+ },
+ {
+  "id": "a1jhqwl",
+  "text": "avoid",
+  "kind": "word"
+ },
+ {
+  "id": "a1bzxi67",
+  "text": "belong",
+  "kind": "word"
+ },
+ {
+  "id": "a1c5kelq",
+  "text": "bother",
+  "kind": "word"
+ },
+ {
+  "id": "anovow7",
+  "text": "celebrate",
+  "kind": "word"
+ },
+ {
+  "id": "a1kdm5rn",
+  "text": "communicate",
+  "kind": "word"
+ },
+ {
+  "id": "afpw6at",
+  "text": "compare",
+  "kind": "word"
+ },
+ {
+  "id": "a1p47rvt",
+  "text": "complain",
+  "kind": "word"
+ },
+ {
+  "id": "afqiims",
+  "text": "contain",
+  "kind": "word"
+ },
+ {
+  "id": "a1pnexlz",
+  "text": "continue",
+  "kind": "word"
+ },
+ {
+  "id": "a1cnzp4s",
+  "text": "create",
+  "kind": "word"
+ },
+ {
+  "id": "a9hid9a",
+  "text": "decrease",
+  "kind": "word"
+ },
+ {
+  "id": "agu7v0r",
+  "text": "describe",
+  "kind": "word"
+ },
+ {
+  "id": "apr7wmy",
+  "text": "destroy",
+  "kind": "word"
+ },
+ {
+  "id": "apsll5p",
+  "text": "develop",
+  "kind": "word"
+ },
+ {
+  "id": "a4inap5",
+  "text": "discover",
+  "kind": "word"
+ },
+ {
+  "id": "ap7hlsd",
+  "text": "encourage",
+  "kind": "word"
+ },
+ {
+  "id": "awwns4j",
+  "text": "exchange",
+  "kind": "word"
+ },
+ {
+  "id": "a1dpkswp",
+  "text": "expect",
+  "kind": "word"
+ },
+ {
+  "id": "a1ddo5x3",
+  "text": "explain",
+  "kind": "word"
+ },
+ {
+  "id": "a1dds31s",
+  "text": "express",
+  "kind": "word"
+ },
+ {
+  "id": "a1v76m",
+  "text": "fail",
+  "kind": "word"
+ },
+ {
+  "id": "a1va1q",
+  "text": "feed",
+  "kind": "word"
+ },
+ {
+  "id": "a1eb3e9n",
+  "text": "gather",
+  "kind": "word"
+ },
+ {
+  "id": "a1hl45n",
+  "text": "graduate",
+  "kind": "word"
+ },
+ {
+  "id": "a1mrobb",
+  "text": "guess",
+  "kind": "word"
+ },
+ {
+  "id": "a1wmyq",
+  "text": "hide",
+  "kind": "word"
+ },
+ {
+  "id": "a1wnas",
+  "text": "hire",
+  "kind": "word"
+ },
+ {
+  "id": "avmbgpi",
+  "text": "imagine",
+  "kind": "word"
+ },
+ {
+  "id": "avurj3s",
+  "text": "improve",
+  "kind": "word"
+ },
+ {
+  "id": "aw4k3vs",
+  "text": "include",
+  "kind": "word"
+ },
+ {
+  "id": "a1kr2o2",
+  "text": "increase",
+  "kind": "word"
+ },
+ {
+  "id": "aj9zit1",
+  "text": "influence",
+  "kind": "word"
+ },
+ {
+  "id": "a1fg5uub",
+  "text": "injure",
+  "kind": "word"
+ },
+ {
+  "id": "a1fgd6qi",
+  "text": "invent",
+  "kind": "word"
+ },
+ {
+  "id": "a1fgd9u1",
+  "text": "invite",
+  "kind": "word"
+ },
+ {
+  "id": "a1h595k5",
+  "text": "manage",
+  "kind": "word"
+ },
+ {
+  "id": "a1ohtrz0",
+  "text": "memorize",
+  "kind": "word"
+ },
+ {
+  "id": "afpt71m",
+  "text": "mention",
+  "kind": "word"
+ },
+ {
+  "id": "a1hu3w0o",
+  "text": "notice",
+  "kind": "word"
+ },
+ {
+  "id": "a1qwgnw",
+  "text": "offer",
+  "kind": "word"
+ },
+ {
+  "id": "acowixq",
+  "text": "participate",
+  "kind": "word"
+ },
+ {
+  "id": "a1nsyesh",
+  "text": "perform",
+  "kind": "word"
+ },
+ {
+  "id": "a7by41v",
+  "text": "persuade",
+  "kind": "word"
+ },
+ {
+  "id": "a1itkvm8",
+  "text": "prefer",
+  "kind": "word"
+ },
+ {
+  "id": "a1trk9on",
+  "text": "prepare",
+  "kind": "word"
+ },
+ {
+  "id": "a1tro6hk",
+  "text": "prevent",
+  "kind": "word"
+ },
+ {
+  "id": "a1twuy8w",
+  "text": "produce",
+  "kind": "word"
+ },
+ {
+  "id": "a1tx0gm3",
+  "text": "promise",
+  "kind": "word"
+ },
+ {
+  "id": "a1tx4u6n",
+  "text": "protect",
+  "kind": "word"
+ },
+ {
+  "id": "a1tx674x",
+  "text": "provide",
+  "kind": "word"
+ },
+ {
+  "id": "a1sgq24",
+  "text": "raise",
+  "kind": "word"
+ },
+ {
+  "id": "ahve4ty",
+  "text": "realize",
+  "kind": "word"
+ },
+ {
+  "id": "ahwd90j",
+  "text": "receive",
+  "kind": "word"
+ },
+ {
+  "id": "ag9o1vy",
+  "text": "recognize",
+  "kind": "word"
+ },
+ {
+  "id": "agcy37g",
+  "text": "recommend",
+  "kind": "word"
+ },
+ {
+  "id": "a1jkigrq",
+  "text": "reduce",
+  "kind": "word"
+ },
+ {
+  "id": "a1jkjr4k",
+  "text": "refuse",
+  "kind": "word"
+ },
+ {
+  "id": "a1jknsz0",
+  "text": "remain",
+  "kind": "word"
+ },
+ {
+  "id": "a1jko3no",
+  "text": "remove",
+  "kind": "word"
+ },
+ {
+  "id": "a1jkppxp",
+  "text": "repair",
+  "kind": "word"
+ },
+ {
+  "id": "ai3mv90",
+  "text": "replace",
+  "kind": "word"
+ },
+ {
+  "id": "a1sjf1m",
+  "text": "reply",
+  "kind": "word"
+ },
+ {
+  "id": "ai5656k",
+  "text": "reserve",
+  "kind": "word"
+ },
+ {
+  "id": "ai5cvye",
+  "text": "respect",
+  "kind": "word"
+ },
+ {
+  "id": "a1k1i3zc",
+  "text": "search",
+  "kind": "word"
+ },
+ {
+  "id": "a23kvu",
+  "text": "seem",
+  "kind": "word"
+ },
+ {
+  "id": "a1k1ov7g",
+  "text": "select",
+  "kind": "word"
+ },
+ {
+  "id": "a1t39cf",
+  "text": "serve",
+  "kind": "word"
+ },
+ {
+  "id": "a1t4tlr",
+  "text": "share",
+  "kind": "word"
+ },
+ {
+  "id": "a1t9irj",
+  "text": "solve",
+  "kind": "word"
+ },
+ {
+  "id": "a1k7uflf",
+  "text": "spread",
+  "kind": "word"
+ },
+ {
+  "id": "a1kadrkf",
+  "text": "suffer",
+  "kind": "word"
+ },
+ {
+  "id": "a147puv8",
+  "text": "suggest",
+  "kind": "word"
+ },
+ {
+  "id": "a1kakd0v",
+  "text": "supply",
+  "kind": "word"
+ },
+ {
+  "id": "a14ctyhb",
+  "text": "support",
+  "kind": "word"
+ },
+ {
+  "id": "a18i2nge",
+  "text": "surround",
+  "kind": "word"
+ },
+ {
+  "id": "ahetufi",
+  "text": "translate",
+  "kind": "word"
+ },
+ {
+  "id": "a1tv2my",
+  "text": "treat",
+  "kind": "word"
+ },
+ {
+  "id": "a1tvexk",
+  "text": "trust",
+  "kind": "word"
+ },
+ {
+  "id": "a1v7wgq",
+  "text": "waste",
+  "kind": "word"
+ },
+ {
+  "id": "a1va8os",
+  "text": "weigh",
+  "kind": "word"
+ },
+ {
+  "id": "a1m3ejzv",
+  "text": "wonder",
+  "kind": "word"
+ },
+ {
+  "id": "a1biicc8",
+  "text": "advice",
+  "kind": "word"
+ },
+ {
+  "id": "ag4v404",
+  "text": "audience",
+  "kind": "word"
+ },
+ {
+  "id": "a1ol5xjx",
+  "text": "average",
+  "kind": "word"
+ },
+ {
+  "id": "a1mlocjm",
+  "text": "ceremony",
+  "kind": "word"
+ },
+ {
+  "id": "a1cifjjo",
+  "text": "charge",
+  "kind": "word"
+ },
+ {
+  "id": "ae8i7tx",
+  "text": "climate",
+  "kind": "word"
+ },
+ {
+  "id": "ai38yh4",
+  "text": "clothing",
+  "kind": "word"
+ },
+ {
+  "id": "a1kgl1y",
+  "text": "coast",
+  "kind": "word"
+ },
+ {
+  "id": "a1ksb5ln",
+  "text": "condition",
+  "kind": "word"
+ },
+ {
+  "id": "a1cpwepd",
+  "text": "custom",
+  "kind": "word"
+ },
+ {
+  "id": "aa0wfry",
+  "text": "customer",
+  "kind": "word"
+ },
+ {
+  "id": "a1j40e4f",
+  "text": "direction",
+  "kind": "word"
+ },
+ {
+  "id": "a4rqoz9",
+  "text": "distance",
+  "kind": "word"
+ },
+ {
+  "id": "a1dfi4cx",
+  "text": "effect",
+  "kind": "word"
+ },
+ {
+  "id": "a1dfic4s",
+  "text": "effort",
+  "kind": "word"
+ },
+ {
+  "id": "ajqk71q",
+  "text": "employee",
+  "kind": "word"
+ },
+ {
+  "id": "a1xlytcj",
+  "text": "environment",
+  "kind": "word"
+ },
+ {
+  "id": "ahsu1zi",
+  "text": "equipment",
+  "kind": "word"
+ },
+ {
+  "id": "a1dpkt9m",
+  "text": "expert",
+  "kind": "word"
+ },
+ {
+  "id": "a264m",
+  "text": "fee",
+  "kind": "word"
+ },
+ {
+  "id": "a1dzro9q",
+  "text": "flavor",
+  "kind": "word"
+ },
+ {
+  "id": "a7pvpx7",
+  "text": "forecast",
+  "kind": "word"
+ },
+ {
+  "id": "a1pfjfg2",
+  "text": "furniture",
+  "kind": "word"
+ },
+ {
+  "id": "a1vvcmk5",
+  "text": "garbage",
+  "kind": "word"
+ },
+ {
+  "id": "a7y0ohd",
+  "text": "government",
+  "kind": "word"
+ },
+ {
+  "id": "a1mympg",
+  "text": "habit",
+  "kind": "word"
+ },
+ {
+  "id": "abizpt5",
+  "text": "harvest",
+  "kind": "word"
+ },
+ {
+  "id": "a1eu55if",
+  "text": "height",
+  "kind": "word"
+ },
+ {
+  "id": "a1nq2cb",
+  "text": "image",
+  "kind": "word"
+ },
+ {
+  "id": "a23peqm",
+  "text": "industry",
+  "kind": "word"
+ },
+ {
+  "id": "an2u21z",
+  "text": "instrument",
+  "kind": "word"
+ },
+ {
+  "id": "a1xi4z",
+  "text": "item",
+  "kind": "word"
+ },
+ {
+  "id": "a1bjzzy8",
+  "text": "journey",
+  "kind": "word"
+ },
+ {
+  "id": "apmrgxq",
+  "text": "knowledge",
+  "kind": "word"
+ },
+ {
+  "id": "a1z0yl",
+  "text": "lack",
+  "kind": "word"
+ },
+ {
+  "id": "a2ra6v5",
+  "text": "license",
+  "kind": "word"
+ },
+ {
+  "id": "a4y21bb",
+  "text": "material",
+  "kind": "word"
+ },
+ {
+  "id": "a1k4utru",
+  "text": "medicine",
+  "kind": "word"
+ },
+ {
+  "id": "a1h7kb8h",
+  "text": "method",
+  "kind": "word"
+ },
+ {
+  "id": "a88rqj2",
+  "text": "neighborhood",
+  "kind": "word"
+ },
+ {
+  "id": "a1qiqt8",
+  "text": "novel",
+  "kind": "word"
+ },
+ {
+  "id": "a1i3tpvj",
+  "text": "object",
+  "kind": "word"
+ },
+ {
+  "id": "a1dns5oz",
+  "text": "opportunity",
+  "kind": "word"
+ },
+ {
+  "id": "a1jelh96",
+  "text": "passenger",
+  "kind": "word"
+ },
+ {
+  "id": "a1lxx7ut",
+  "text": "patient",
+  "kind": "word"
+ },
+ {
+  "id": "a1imnx6p",
+  "text": "period",
+  "kind": "word"
+ },
+ {
+  "id": "a1iq7q1k",
+  "text": "planet",
+  "kind": "word"
+ },
+ {
+  "id": "awm3t0t",
+  "text": "pleasure",
+  "kind": "word"
+ },
+ {
+  "id": "a11kc6dp",
+  "text": "population",
+  "kind": "word"
+ },
+ {
+  "id": "a1rnzte",
+  "text": "prize",
+  "kind": "word"
+ },
+ {
+  "id": "a1icgfhr",
+  "text": "professor",
+  "kind": "word"
+ },
+ {
+  "id": "a1vduqzi",
+  "text": "purpose",
+  "kind": "word"
+ },
+ {
+  "id": "aarpssf",
+  "text": "quality",
+  "kind": "word"
+ },
+ {
+  "id": "a1up7nzs",
+  "text": "relationship",
+  "kind": "word"
+ },
+ {
+  "id": "a1jks1st",
+  "text": "result",
+  "kind": "word"
+ },
+ {
+  "id": "a1t1pjg",
+  "text": "scene",
+  "kind": "word"
+ },
+ {
+  "id": "a1nhl6s7",
+  "text": "schedule",
+  "kind": "word"
+ },
+ {
+  "id": "a1k1je0g",
+  "text": "secret",
+  "kind": "word"
+ },
+ {
+  "id": "awl13vp",
+  "text": "section",
+  "kind": "word"
+ },
+ {
+  "id": "a1t5kt9",
+  "text": "sight",
+  "kind": "word"
+ },
+ {
+  "id": "a1xtfbpa",
+  "text": "situation",
+  "kind": "word"
+ },
+ {
+  "id": "a1t6wcx",
+  "text": "skill",
+  "kind": "word"
+ },
+ {
+  "id": "a11ba84o",
+  "text": "society",
+  "kind": "word"
+ },
+ {
+  "id": "a1k9r2sk",
+  "text": "statue",
+  "kind": "word"
+ },
+ {
+  "id": "a13v6bs7",
+  "text": "stomach",
+  "kind": "word"
+ },
+ {
+  "id": "a1kalra2",
+  "text": "survey",
+  "kind": "word"
+ },
+ {
+  "id": "a5bj69g",
+  "text": "temperature",
+  "kind": "word"
+ },
+ {
+  "id": "a1ik4grt",
+  "text": "tournament",
+  "kind": "word"
+ },
+ {
+  "id": "acj0y9o",
+  "text": "tradition",
+  "kind": "word"
+ },
+ {
+  "id": "a1tvey3",
+  "text": "truth",
+  "kind": "word"
+ },
+ {
+  "id": "a3wz87c",
+  "text": "variety",
+  "kind": "word"
+ },
+ {
+  "id": "a5nnq5o",
+  "text": "vehicle",
+  "kind": "word"
+ },
+ {
+  "id": "a25kth",
+  "text": "view",
+  "kind": "word"
+ },
+ {
+  "id": "azut2fe",
+  "text": "volunteer",
+  "kind": "word"
+ },
+ {
+  "id": "a1lxthfc",
+  "text": "weight",
+  "kind": "word"
+ },
+ {
+  "id": "a1mw5zgp",
+  "text": "available",
+  "kind": "word"
+ },
+ {
+  "id": "ab29h2a",
+  "text": "certain",
+  "kind": "word"
+ },
+ {
+  "id": "apg92j4",
+  "text": "cheerful",
+  "kind": "word"
+ },
+ {
+  "id": "a1gqibl2",
+  "text": "comfortable",
+  "kind": "word"
+ },
+ {
+  "id": "a1cmho17",
+  "text": "common",
+  "kind": "word"
+ },
+ {
+  "id": "axq3xvj",
+  "text": "convenient",
+  "kind": "word"
+ },
+ {
+  "id": "ah695ho",
+  "text": "crowded",
+  "kind": "word"
+ },
+ {
+  "id": "aimsp6s",
+  "text": "curious",
+  "kind": "word"
+ },
+ {
+  "id": "a1lj7f1",
+  "text": "empty",
+  "kind": "word"
+ },
+ {
+  "id": "ad0svid",
+  "text": "familiar",
+  "kind": "word"
+ },
+ {
+  "id": "a1ntn4r8",
+  "text": "foreign",
+  "kind": "word"
+ },
+ {
+  "id": "a1wvxn",
+  "text": "huge",
+  "kind": "word"
+ },
+ {
+  "id": "a1perfv",
+  "text": "local",
+  "kind": "word"
+ },
+ {
+  "id": "a1hcrz8f",
+  "text": "modern",
+  "kind": "word"
+ },
+ {
+  "id": "a1hmdopn",
+  "text": "narrow",
+  "kind": "word"
+ },
+ {
+  "id": "a1hmes5z",
+  "text": "native",
+  "kind": "word"
+ },
+ {
+  "id": "augg27m",
+  "text": "nervous",
+  "kind": "word"
+ },
+ {
+  "id": "akh03xe",
+  "text": "ordinary",
+  "kind": "word"
+ },
+ {
+  "id": "a1y27s5r",
+  "text": "peaceful",
+  "kind": "word"
+ },
+ {
+  "id": "a7bujpc",
+  "text": "personal",
+  "kind": "word"
+ },
+ {
+  "id": "a1is21bh",
+  "text": "polite",
+  "kind": "word"
+ },
+ {
+  "id": "a1ttva0z",
+  "text": "private",
+  "kind": "word"
+ },
+ {
+  "id": "aegzxuv",
+  "text": "professional",
+  "kind": "word"
+ },
+ {
+  "id": "a1ro458",
+  "text": "proud",
+  "kind": "word"
+ },
+ {
+  "id": "a1iv6gyx",
+  "text": "public",
+  "kind": "word"
+ },
+ {
+  "id": "a22v8i",
+  "text": "rare",
+  "kind": "word"
+ },
+ {
+  "id": "ahyuows",
+  "text": "regular",
+  "kind": "word"
+ },
+ {
+  "id": "awt34is",
+  "text": "serious",
+  "kind": "word"
+ },
+ {
+  "id": "awv7sos",
+  "text": "several",
+  "kind": "word"
+ },
+ {
+  "id": "aymikff",
+  "text": "similar",
+  "kind": "word"
+ },
+ {
+  "id": "a13wmbgc",
+  "text": "strange",
+  "kind": "word"
+ },
+ {
+  "id": "a1fkkitf",
+  "text": "terrible",
+  "kind": "word"
+ },
+ {
+  "id": "azodkmf",
+  "text": "traditional",
+  "kind": "word"
+ },
+ {
+  "id": "a1l4olox",
+  "text": "unique",
+  "kind": "word"
+ },
+ {
+  "id": "a1l7csk6",
+  "text": "useful",
+  "kind": "word"
+ },
+ {
+  "id": "a1bpgvke",
+  "text": "valuable",
+  "kind": "word"
+ },
+ {
+  "id": "a3wzfmz",
+  "text": "various",
+  "kind": "word"
+ },
+ {
+  "id": "a1vca7r",
+  "text": "whole",
+  "kind": "word"
+ },
+ {
+  "id": "a267yi",
+  "text": "wild",
+  "kind": "word"
+ },
+ {
+  "id": "a1bqksgm",
+  "text": "asleep",
+  "kind": "word"
+ },
+ {
+  "id": "a1bhcblt",
+  "text": "abroad",
+  "kind": "word"
+ },
+ {
+  "id": "a17tf44b",
+  "text": "actually",
+  "kind": "word"
+ },
+ {
+  "id": "a1bt4e5r",
+  "text": "certainly",
+  "kind": "word"
+ },
+ {
+  "id": "a1xwr4u9",
+  "text": "especially",
+  "kind": "word"
+ },
+ {
+  "id": "a1kx3qf7",
+  "text": "finally",
+  "kind": "word"
+ },
+ {
+  "id": "a159f0fy",
+  "text": "immediately",
+  "kind": "word"
+ },
+ {
+  "id": "awdhlc2",
+  "text": "instead",
+  "kind": "word"
+ },
+ {
+  "id": "a1hoa08l",
+  "text": "nearly",
+  "kind": "word"
+ },
+ {
+  "id": "a1ie1kxv",
+  "text": "probably",
+  "kind": "word"
+ },
+ {
+  "id": "a1s9p86",
+  "text": "quite",
+  "kind": "word"
+ },
+ {
+  "id": "a1jijwkv",
+  "text": "rarely",
+  "kind": "word"
+ },
+ {
+  "id": "a1lnpjc8",
+  "text": "recently",
+  "kind": "word"
+ },
+ {
+  "id": "a11nkajc",
+  "text": "suddenly",
+  "kind": "word"
+ },
+ {
+  "id": "a15o01tu",
+  "text": "unfortunately",
+  "kind": "word"
+ },
+ {
+  "id": "ajer8fv",
+  "text": "fortunately",
+  "kind": "word"
+ },
+ {
+  "id": "a14c5ph8",
+  "text": "at least",
+  "kind": "word"
+ },
+ {
+  "id": "a2dfr47",
+  "text": "be afraid of 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1gyvohg",
+  "text": "be proud of 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1x9q0ji",
+  "text": "be responsible for 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1feayd0",
+  "text": "be used to -ing",
+  "kind": "word"
+ },
+ {
+  "id": "akl4wmb",
+  "text": "break down",
+  "kind": "word"
+ },
+ {
+  "id": "a14ogv51",
+  "text": "bring up 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1mx4nf9",
+  "text": "by mistake",
+  "kind": "word"
+ },
+ {
+  "id": "a38m4oy",
+  "text": "catch up with 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a15gtp9m",
+  "text": "come true",
+  "kind": "word"
+ },
+ {
+  "id": "a1w1sfgr",
+  "text": "come up with 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1khyc7j",
+  "text": "depend on 〜",
+  "kind": "word"
+ },
+ {
+  "id": "audf3pg",
+  "text": "feel like -ing",
+  "kind": "word"
+ },
+ {
+  "id": "a138v4b2",
+  "text": "figure out 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1cjj82r",
+  "text": "find out 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a12c59az",
+  "text": "for a while",
+  "kind": "word"
+ },
+ {
+  "id": "a1vlbnxr",
+  "text": "get along with 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1dch7m8",
+  "text": "get rid of 〜",
+  "kind": "word"
+ },
+ {
+  "id": "an4g8li",
+  "text": "give up 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1yxl5o2",
+  "text": "hand in 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1887qu0",
+  "text": "hear from 〜",
+  "kind": "word"
+ },
+ {
+  "id": "av3lnd3",
+  "text": "in fact",
+  "kind": "word"
+ },
+ {
+  "id": "av3urc8",
+  "text": "in time",
+  "kind": "word"
+ },
+ {
+  "id": "a1hryo8h",
+  "text": "instead of 〜",
+  "kind": "word"
+ },
+ {
+  "id": "aqtcgjn",
+  "text": "keep in touch with 〜",
+  "kind": "word"
+ },
+ {
+  "id": "auoecev",
+  "text": "look after 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1ulr95f",
+  "text": "look forward to 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1f4n0n0",
+  "text": "make sense",
+  "kind": "word"
+ },
+ {
+  "id": "ajza8zr",
+  "text": "make sure",
+  "kind": "word"
+ },
+ {
+  "id": "a1c54epa",
+  "text": "on time",
+  "kind": "word"
+ },
+ {
+  "id": "a1ab2tfa",
+  "text": "pick up 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a135778a",
+  "text": "put off 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1x8acuy",
+  "text": "run out of 〜",
+  "kind": "word"
+ },
+ {
+  "id": "amg6bpx",
+  "text": "set up 〜",
+  "kind": "word"
+ },
+ {
+  "id": "ay6rx5q",
+  "text": "show up",
+  "kind": "word"
+ },
+ {
+  "id": "aanuctl",
+  "text": "take care of 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a1jcn2c5",
+  "text": "take part in 〜",
+  "kind": "word"
+ },
+ {
+  "id": "at0r3ji",
+  "text": "thanks to 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a17z2l0k",
+  "text": "throw away 〜",
+  "kind": "word"
+ },
+ {
+  "id": "a5lifq9",
+  "text": "turn down 〜",
+  "kind": "word"
+ },
+ {
+  "id": "aaegc1t",
+  "text": "Today, many people enjoy shopping on the Internet. They can buy things without going to stores, so online shopping is very convenient. However, some people worry about buying clothes online because they cannot try them on. Some online stores let customers return clothes for free, and in this way they make their customers feel safe.",
+  "kind": "passage"
+ },
+ {
+  "id": "apfvl4i",
+  "text": "These days, more and more people are interested in electric cars. Electric cars do not use gasoline, so they are good for the environment. However, charging them takes a long time. Now, some companies are building fast charging stations in many places, and by doing so, they are making electric cars easier to use.",
+  "kind": "passage"
+ },
+ {
+  "id": "auo5q5j",
+  "text": "Many towns have volunteer groups that clean parks and streets. Volunteering is a good way to help the community and make new friends. However, some people are too busy to join such activities. Some groups hold short events on weekends, and in this way, they help busy people take part more easily.",
+  "kind": "passage"
+ },
+ {
+  "id": "a1sc9jdo",
+  "text": "In Japan, many people keep pets such as dogs and cats. Pets can make people happy and relaxed. However, taking care of pets costs time and money. Some animal hospitals give owners advice about their pets' health on the Internet, and in this way, they support busy pet owners.",
+  "kind": "passage"
+ },
+ {
+  "id": "a1lxazpa",
+  "text": "Today, plastic garbage is a big problem around the world. Plastic bags are convenient, but they are bad for the sea and animals. Now, many supermarkets ask customers to bring their own shopping bags, and by doing so, they are trying to reduce plastic garbage.",
+  "kind": "passage"
+ },
+ {
+  "id": "a188zf07",
+  "text": "Eating vegetables is important for our health. However, many young people do not eat enough vegetables because cooking them takes time. These days, some restaurants serve dishes with a lot of local vegetables, and in this way, they help people enjoy healthy meals easily.",
+  "kind": "passage"
+ },
+ {
+  "id": "aztrg8r",
+  "text": "Smartphones are useful for students. They can look up information quickly and talk with their friends easily. However, using smartphones too much is bad for their eyes and sleep. Some schools teach students how to use smartphones safely, and in this way, they help students build good habits.",
+  "kind": "passage"
+ },
+ {
+  "id": "a1irkit6",
+  "text": "Libraries are popular places for many people. People can read books and study there for free. Recently, some libraries have started to open cafes inside, and by doing so, they are trying to attract more visitors, especially young people.",
+  "kind": "passage"
+ },
+ {
+  "id": "a1iyq7ak",
+  "text": "There are many convenience stores in Japan, and they are open for long hours. People can buy food and drinks there at any time. Also, some convenience stores sell fresh vegetables from local farms, and in this way, they attract customers who care about their health.",
+  "kind": "passage"
+ },
+ {
+  "id": "atqeagj",
+  "text": "Many people in Japan travel by train. Trains usually come on time, so people can plan their trips easily. These days, some train companies sell special tickets with discounts for tourists, and by doing so, they encourage more people to enjoy traveling by train.",
+  "kind": "passage"
+ },
+ {
+  "id": "avmfjtq",
+  "text": "In Japan, most junior high school students wear school uniforms. Uniforms are useful because students do not have to choose clothes every morning. However, buying uniforms costs a lot of money. Now, some schools collect old uniforms from graduates and give them to new students, and in this way, they help families save money.",
+  "kind": "passage"
+ },
+ {
+  "id": "apq72kc",
+  "text": "Walking is one of the easiest ways to stay healthy. People do not need any special equipment, and they can start at any time. Recently, some cities have made beautiful walking courses along rivers, and in this way, they encourage people to walk more in their daily lives.",
+  "kind": "passage"
+ },
+ {
+  "id": "am93fb2",
+  "text": "Every year, many foreign tourists visit Japan. They enjoy Japanese food, temples, and beautiful nature. However, some tourists have trouble because they cannot read Japanese signs. Now, many towns put signs in several languages, and by doing so, they help foreign visitors travel more easily.",
+  "kind": "passage"
+ },
+ {
+  "id": "aaqfi0x",
+  "text": "These days, many people study online. They can take lessons at home, so they do not need to spend time going to school. Also, some websites let students watch the same lesson many times, and in this way, they help students understand difficult points at their own pace.",
+  "kind": "passage"
+ },
+ {
+  "id": "a2v60d2",
+  "text": "Summer festivals are popular events in Japan. People enjoy watching fireworks and eating food at the stalls. However, some small towns cannot hold festivals because they do not have enough money. Some towns ask local companies for help, and in this way, they keep their traditional events alive.",
+  "kind": "passage"
+ },
+ {
+  "id": "a1qos1v8",
+  "text": "Bicycles are useful for short trips. They do not need gasoline, and riding them is good exercise. In some cities, people can borrow bicycles at stations for a small fee. In this way, the cities help people move around town without using cars.",
+  "kind": "passage"
+ },
+ {
+  "id": "a1atkc5h",
+  "text": "Many high school students in Japan have part-time jobs. They can earn money and learn how to work with other people. However, some students become too tired to study. Some shops let students choose their working days freely, and in this way, they help students keep a good balance.",
+  "kind": "passage"
+ },
+ {
+  "id": "a6zl5b1",
+  "text": "Recycling is important for protecting the environment. People can turn old paper and cans into new products. However, some people do not know how to separate their garbage. Now, some cities send guidebooks with pictures to every home, and by doing so, they make recycling easier for everyone.",
+  "kind": "passage"
+ },
+ {
+  "id": "a1jlllc2",
+  "text": "Music is a part of daily life for many people. They listen to music while they are working or relaxing. Some music schools now offer online lessons for beginners, and in this way, they give more people a chance to start playing an instrument.",
+  "kind": "passage"
+ },
+ {
+  "id": "adbih77",
+  "text": "Cooking at home is becoming popular again. Home-cooked meals are usually cheaper and healthier than eating out. However, some people think cooking takes too much time. Some websites show short videos of easy recipes, and in this way, they help busy people cook at home.",
+  "kind": "passage"
+ },
+ {
+  "id": "a1bjuhls",
+  "text": "City parks are important places for people living in towns. People can relax, exercise, and meet their neighbors there. However, some parks are not safe at night. Some cities have put more lights along the paths, and in this way, they help people use parks safely.",
+  "kind": "passage"
+ },
+ {
+  "id": "admk4vu",
+  "text": "Japan has many earthquakes and typhoons every year. It is important for people to prepare for these disasters. Now, many cities hold training events for local people, and in this way, they help everyone learn what to do in an emergency.",
+  "kind": "passage"
+ },
+ {
+  "id": "a78glw",
+  "text": "Taking photos has become very easy because of smartphones. People take pictures of food, flowers, and their friends every day. However, some people take photos in places where it is not allowed. Some museums put clear signs at the entrance, and in this way, they tell visitors where they can take pictures.",
+  "kind": "passage"
+ },
+ {
+  "id": "aqomjdk",
+  "text": "Reading books helps people learn new things and understand other people's feelings. However, young people today read fewer books than before because they spend more time on the Internet. Some schools give students ten minutes to read every morning, and in this way, they help students build a reading habit.",
+  "kind": "passage"
+ },
+ {
+  "id": "as1g2uc",
+  "text": "More and more people in Japan pay without cash. They use credit cards or smartphone apps at stores. Paying without cash is fast, but some older people find it difficult. Some shops keep both cash and cashless systems, and in this way, they make shopping easy for all customers.",
+  "kind": "passage"
+ },
+ {
+  "id": "ay6lova",
+  "text": "Health checkups help people find health problems early. Doctors say that finding a problem early makes treatment easier. However, some people are too busy to visit hospitals. Now, some companies bring checkup buses to their offices, and in this way, they help their workers stay healthy.",
+  "kind": "passage"
+ },
+ {
+  "id": "alycvtr",
+  "text": "Moving to a new house is exciting, but it is also hard work. People need to pack many things and clean their old house. Some moving companies offer boxes and packing help for free, and in this way, they reduce the stress of moving.",
+  "kind": "passage"
+ },
+ {
+  "id": "a10fta3p",
+  "text": "New Year is the most important holiday in Japan. Families get together, eat special food, and visit shrines. However, preparing New Year's food takes a lot of time. Now, many stores sell ready-made New Year's dishes, and in this way, they help families enjoy the holiday more easily.",
+  "kind": "passage"
+ },
+ {
+  "id": "awrg9ha",
+  "text": "Many people enjoy watching sports on TV or at stadiums. Watching a game with other fans is exciting. However, tickets for popular games are often expensive. Some teams sell cheaper tickets for children and their families, and in this way, they help more young fans come to the stadium.",
+  "kind": "passage"
+ },
+ {
+  "id": "a1sz8gpe",
+  "text": "Zoos and aquariums are popular places for families. Children can see animals that they cannot see in daily life. Also, some zoos teach visitors about protecting wild animals, and in this way, they help people think about nature.",
+  "kind": "passage"
+ },
+ {
+  "id": "at7657r",
+  "text": "Buying used things is becoming popular in Japan. People can get books, clothes, and furniture at low prices. Also, using things again is good for the environment. Some websites check the quality of used items before selling them, and in this way, they help buyers feel safe.",
+  "kind": "passage"
+ },
+ {
+  "id": "a71xouk",
+  "text": "Buying food made in your own area is good for both farmers and customers. The food is fresh, and it does not travel a long way. Some supermarkets put the farmer's name and photo on each package, and in this way, they help customers feel closer to the people who grow their food.",
+  "kind": "passage"
+ },
+ {
+  "id": "a15rk1rb",
+  "text": "According to the passage, how do some online stores make their customers feel safe?",
+  "kind": "q"
+ },
+ {
+  "id": "a19deuhz",
+  "text": "Please look at the five people. They are doing different things. Tell me, as much as you can, what they are doing.",
+  "kind": "q"
+ },
+ {
+  "id": "a1by0e0d",
+  "text": "Now, look at the woman. Please describe the situation.",
+  "kind": "q"
+ },
+ {
+  "id": "aooxjzy",
+  "text": "Do you think more people will buy things on the Internet in the future?",
+  "kind": "q"
+ },
+ {
+  "id": "aeanfj7",
+  "text": "Do you often use a smartphone in your free time?",
+  "kind": "q"
+ },
+ {
+  "id": "a1c1b24m",
+  "text": "According to the passage, how are some companies making electric cars easier to use?",
+  "kind": "q"
+ },
+ {
+  "id": "a1gy7whi",
+  "text": "Please look at the five people. Tell me, as much as you can, what they are doing.",
+  "kind": "q"
+ },
+ {
+  "id": "a90flad",
+  "text": "Now, look at the man. Please describe the situation.",
+  "kind": "q"
+ },
+ {
+  "id": "a1gi2ywa",
+  "text": "Do you think more people will drive electric cars in the future?",
+  "kind": "q"
+ },
+ {
+  "id": "a1qswnvt",
+  "text": "Do you like traveling by car?",
+  "kind": "q"
+ },
+ {
+  "id": "a1qpzmyh",
+  "text": "According to the passage, how do some groups help busy people take part more easily?",
+  "kind": "q"
+ },
+ {
+  "id": "awiewhj",
+  "text": "Now, look at the boy. Please describe the situation.",
+  "kind": "q"
+ },
+ {
+  "id": "a1nd1n11",
+  "text": "Do you think it is good for students to do volunteer work?",
+  "kind": "q"
+ },
+ {
+  "id": "a1bevv65",
+  "text": "Have you ever joined a volunteer activity?",
+  "kind": "q"
+ },
+ {
+  "id": "a1tvs64g",
+  "text": "According to the passage, how do some animal hospitals support busy pet owners?",
+  "kind": "q"
+ },
+ {
+  "id": "ab4v02f",
+  "text": "Do you think keeping pets is good for children?",
+  "kind": "q"
+ },
+ {
+  "id": "ahc9onv",
+  "text": "Do you like animals?",
+  "kind": "q"
+ },
+ {
+  "id": "aikcbvx",
+  "text": "According to the passage, how are many supermarkets trying to reduce plastic garbage?",
+  "kind": "q"
+ },
+ {
+  "id": "ajb07yy",
+  "text": "Do you think people should stop using plastic bags?",
+  "kind": "q"
+ },
+ {
+  "id": "a1mm47wq",
+  "text": "Do you take your own bag when you go shopping?",
+  "kind": "q"
+ },
+ {
+  "id": "a16zpmkp",
+  "text": "According to the passage, how do some restaurants help people enjoy healthy meals easily?",
+  "kind": "q"
+ },
+ {
+  "id": "aof5imr",
+  "text": "Do you think eating breakfast every day is important?",
+  "kind": "q"
+ },
+ {
+  "id": "a1lgchv7",
+  "text": "What food do you like the best?",
+  "kind": "q"
+ },
+ {
+  "id": "a1omtgp8",
+  "text": "According to the passage, how do some schools help students build good habits?",
+  "kind": "q"
+ },
+ {
+  "id": "a1ee86sv",
+  "text": "Do you think students should bring smartphones to school?",
+  "kind": "q"
+ },
+ {
+  "id": "a1kq7i6q",
+  "text": "How often do you use your smartphone?",
+  "kind": "q"
+ },
+ {
+  "id": "a1o4ux45",
+  "text": "According to the passage, how are some libraries trying to attract more visitors?",
+  "kind": "q"
+ },
+ {
+  "id": "a3m87pv",
+  "text": "Do you think libraries will be popular in the future?",
+  "kind": "q"
+ },
+ {
+  "id": "a1gaa967",
+  "text": "Do you often read books?",
+  "kind": "q"
+ },
+ {
+  "id": "a10w1nqx",
+  "text": "According to the passage, how do some convenience stores attract customers who care about their health?",
+  "kind": "q"
+ },
+ {
+  "id": "a139a3k9",
+  "text": "Do you think convenience stores should be open 24 hours?",
+  "kind": "q"
+ },
+ {
+  "id": "a1s2sjv",
+  "text": "How often do you go to convenience stores?",
+  "kind": "q"
+ },
+ {
+  "id": "al0wlqv",
+  "text": "According to the passage, how do some train companies encourage more people to enjoy traveling by train?",
+  "kind": "q"
+ },
+ {
+  "id": "a18a3fp8",
+  "text": "Do you think traveling by train is better than traveling by car?",
+  "kind": "q"
+ },
+ {
+  "id": "a1kj2rfp",
+  "text": "Have you ever traveled by train with your family?",
+  "kind": "q"
+ },
+ {
+  "id": "a14mah67",
+  "text": "According to the passage, how do some schools help families save money?",
+  "kind": "q"
+ },
+ {
+  "id": "awqsmpd",
+  "text": "Now, look at the girl. Please describe the situation.",
+  "kind": "q"
+ },
+ {
+  "id": "a1t81jft",
+  "text": "Do you think school uniforms are a good idea?",
+  "kind": "q"
+ },
+ {
+  "id": "a18nu71k",
+  "text": "What do you usually wear on weekends?",
+  "kind": "q"
+ },
+ {
+  "id": "a1ebjj1d",
+  "text": "According to the passage, how do some cities encourage people to walk more in their daily lives?",
+  "kind": "q"
+ },
+ {
+  "id": "aj8qte5",
+  "text": "Do you think people today get enough exercise?",
+  "kind": "q"
+ },
+ {
+  "id": "a1pjnbwj",
+  "text": "Do you do anything to stay healthy?",
+  "kind": "q"
+ },
+ {
+  "id": "adrcrc4",
+  "text": "According to the passage, how do many towns help foreign visitors travel more easily?",
+  "kind": "q"
+ },
+ {
+  "id": "autvp43",
+  "text": "Do you think more foreign tourists will visit Japan in the future?",
+  "kind": "q"
+ },
+ {
+  "id": "a1roqani",
+  "text": "Have you ever talked with people from other countries?",
+  "kind": "q"
+ },
+ {
+  "id": "a1odsfo6",
+  "text": "According to the passage, how do some websites help students understand difficult points at their own pace?",
+  "kind": "q"
+ },
+ {
+  "id": "a4sqyzc",
+  "text": "Do you think studying online is as good as studying at school?",
+  "kind": "q"
+ },
+ {
+  "id": "a19d6exx",
+  "text": "Do you use the Internet to learn something?",
+  "kind": "q"
+ },
+ {
+  "id": "a1cg9x9t",
+  "text": "According to the passage, how do some towns keep their traditional events alive?",
+  "kind": "q"
+ },
+ {
+  "id": "als5kac",
+  "text": "Do you think it is important to keep traditional events?",
+  "kind": "q"
+ },
+ {
+  "id": "a1fi49pe",
+  "text": "Do you like summer festivals?",
+  "kind": "q"
+ },
+ {
+  "id": "ahggpnc",
+  "text": "According to the passage, how do some cities help people move around town without using cars?",
+  "kind": "q"
+ },
+ {
+  "id": "a1eos4o5",
+  "text": "Do you think more people should use bicycles instead of cars?",
+  "kind": "q"
+ },
+ {
+  "id": "a1ya7ene",
+  "text": "How do you usually go to work?",
+  "kind": "q"
+ },
+ {
+  "id": "a1nkfbvv",
+  "text": "According to the passage, how do some shops help students keep a good balance?",
+  "kind": "q"
+ },
+ {
+  "id": "a1y19w27",
+  "text": "Do you think high school students should have part-time jobs?",
+  "kind": "q"
+ },
+ {
+  "id": "annxang",
+  "text": "What was your first job?",
+  "kind": "q"
+ },
+ {
+  "id": "a1bbs4vu",
+  "text": "According to the passage, how do some cities make recycling easier for everyone?",
+  "kind": "q"
+ },
+ {
+  "id": "ax1uzbx",
+  "text": "Do you think people should recycle more?",
+  "kind": "q"
+ },
+ {
+  "id": "a940arp",
+  "text": "Do you separate garbage at home?",
+  "kind": "q"
+ },
+ {
+  "id": "a1rbztzn",
+  "text": "According to the passage, how do some music schools give more people a chance to start playing an instrument?",
+  "kind": "q"
+ },
+ {
+  "id": "aweyaeo",
+  "text": "Do you think learning a musical instrument is good for children?",
+  "kind": "q"
+ },
+ {
+  "id": "as0pkpy",
+  "text": "What kind of music do you like?",
+  "kind": "q"
+ },
+ {
+  "id": "a54okbb",
+  "text": "According to the passage, how do some websites help busy people cook at home?",
+  "kind": "q"
+ },
+ {
+  "id": "a1i5dzc7",
+  "text": "Do you think cooking at home is better than eating at restaurants?",
+  "kind": "q"
+ },
+ {
+  "id": "a1nwtjlh",
+  "text": "Do you cook at home?",
+  "kind": "q"
+ },
+ {
+  "id": "abk65bz",
+  "text": "According to the passage, how do some cities help people use parks safely?",
+  "kind": "q"
+ },
+ {
+  "id": "amwnmoa",
+  "text": "Do you think cities need more parks?",
+  "kind": "q"
+ },
+ {
+  "id": "a1wq0ifn",
+  "text": "Do you often go to parks?",
+  "kind": "q"
+ },
+ {
+  "id": "andgvtd",
+  "text": "According to the passage, how do many cities help everyone learn what to do in an emergency?",
+  "kind": "q"
+ },
+ {
+  "id": "a10csgd2",
+  "text": "Do you think it is important to prepare for natural disasters?",
+  "kind": "q"
+ },
+ {
+  "id": "a11f9ei3",
+  "text": "Do you have an emergency bag at home?",
+  "kind": "q"
+ },
+ {
+  "id": "avwdh6q",
+  "text": "According to the passage, how do some museums tell visitors where they can take pictures?",
+  "kind": "q"
+ },
+ {
+  "id": "a1m31pro",
+  "text": "Do you think people take too many photos today?",
+  "kind": "q"
+ },
+ {
+  "id": "a10zc3qt",
+  "text": "Do you often take photos?",
+  "kind": "q"
+ },
+ {
+  "id": "al3hqtp",
+  "text": "According to the passage, how do some schools help students build a reading habit?",
+  "kind": "q"
+ },
+ {
+  "id": "awqw7ea",
+  "text": "Do you think reading books is more useful than watching videos?",
+  "kind": "q"
+ },
+ {
+  "id": "a1fco3za",
+  "text": "What kind of books do you like to read?",
+  "kind": "q"
+ },
+ {
+  "id": "a1yrbu82",
+  "text": "According to the passage, how do some shops make shopping easy for all customers?",
+  "kind": "q"
+ },
+ {
+  "id": "a176n877",
+  "text": "Do you think Japan will become a cashless society?",
+  "kind": "q"
+ },
+ {
+  "id": "a2njp6s",
+  "text": "Do you often use cashless payment?",
+  "kind": "q"
+ },
+ {
+  "id": "a15ljt81",
+  "text": "According to the passage, how do some companies help their workers stay healthy?",
+  "kind": "q"
+ },
+ {
+  "id": "a1njxq8j",
+  "text": "Do you think people should have a health checkup every year?",
+  "kind": "q"
+ },
+ {
+  "id": "a170bjir",
+  "text": "Do you take care of your health?",
+  "kind": "q"
+ },
+ {
+  "id": "a8lpuj3",
+  "text": "According to the passage, how do some moving companies reduce the stress of moving?",
+  "kind": "q"
+ },
+ {
+  "id": "a1gcuuc5",
+  "text": "Do you think it is good to live in the same town for a long time?",
+  "kind": "q"
+ },
+ {
+  "id": "a1hzd8jx",
+  "text": "Have you ever moved to a new house?",
+  "kind": "q"
+ },
+ {
+  "id": "a9nzzxi",
+  "text": "According to the passage, how do many stores help families enjoy the holiday more easily?",
+  "kind": "q"
+ },
+ {
+  "id": "a1q8fnx6",
+  "text": "Do you think family traditions are important?",
+  "kind": "q"
+ },
+ {
+  "id": "a115ugdf",
+  "text": "What do you usually do on New Year's Day?",
+  "kind": "q"
+ },
+ {
+  "id": "an952ll",
+  "text": "According to the passage, how do some teams help more young fans come to the stadium?",
+  "kind": "q"
+ },
+ {
+  "id": "afnffp7",
+  "text": "Do you think watching sports at a stadium is better than watching on TV?",
+  "kind": "q"
+ },
+ {
+  "id": "aijgt9i",
+  "text": "Do you like watching sports?",
+  "kind": "q"
+ },
+ {
+  "id": "a1rtgl5d",
+  "text": "According to the passage, how do some zoos help people think about nature?",
+  "kind": "q"
+ },
+ {
+  "id": "apm4bhx",
+  "text": "Do you think zoos are good for children?",
+  "kind": "q"
+ },
+ {
+  "id": "at6nd0b",
+  "text": "Have you ever been to an aquarium?",
+  "kind": "q"
+ },
+ {
+  "id": "aus485q",
+  "text": "According to the passage, how do some websites help buyers feel safe?",
+  "kind": "q"
+ },
+ {
+  "id": "al4949u",
+  "text": "Do you think buying used things is a good idea?",
+  "kind": "q"
+ },
+ {
+  "id": "a11cpfcg",
+  "text": "Have you ever bought something used?",
+  "kind": "q"
+ },
+ {
+  "id": "a1x2l5oy",
+  "text": "According to the passage, how do some supermarkets help customers feel closer to the people who grow their food?",
+  "kind": "q"
+ },
+ {
+  "id": "akg6jdc",
+  "text": "Do you think it is important to buy local food?",
+  "kind": "q"
+ },
+ {
+  "id": "a18kjq1y",
+  "text": "Do you buy vegetables at local shops?",
+  "kind": "q"
+ },
+ {
+  "id": "a16hyaz2",
+  "text": "By letting customers return clothes for free.",
+  "kind": "a"
+ },
+ {
+  "id": "azujheh",
+  "text": "A woman is reading a newspaper. / A man is carrying a box. / A boy is walking a dog. / A woman is riding a bicycle. / A man is talking on the phone.",
+  "kind": "a"
+ },
+ {
+  "id": "a1msaeph",
+  "text": "She wants to buy a drink, but she can't because the vending machine is broken.",
+  "kind": "a"
+ },
+ {
+  "id": "amsznz3",
+  "text": "Yes. I think so because online shopping is easy, and people can buy things anytime.",
+  "kind": "a"
+ },
+ {
+  "id": "amjrn1h",
+  "text": "Yes. I often watch videos and read the news on my smartphone at night.",
+  "kind": "a"
+ },
+ {
+  "id": "a1yfgzvt",
+  "text": "By building fast charging stations in many places.",
+  "kind": "a"
+ },
+ {
+  "id": "a1hu0rsv",
+  "text": "A man is washing a car. / A woman is drinking coffee. / A girl is taking a picture. / A man is eating a sandwich on the bench. / A woman is looking at a map.",
+  "kind": "a"
+ },
+ {
+  "id": "a137i5hj",
+  "text": "He wants to park his car, but he can't because the parking lot is full.",
+  "kind": "a"
+ },
+ {
+  "id": "ahs7u0e",
+  "text": "Yes. They are good for the environment, and there will be more charging stations.",
+  "kind": "a"
+ },
+ {
+  "id": "ap96vo1",
+  "text": "Yes. I often drive to hot springs with my family on weekends.",
+  "kind": "a"
+ },
+ {
+  "id": "a12bpjcu",
+  "text": "By holding short events on weekends.",
+  "kind": "a"
+ },
+ {
+  "id": "at6bsmr",
+  "text": "A woman is picking up trash. / A man is watering a tree. / A boy is opening a box. / A girl is planting flowers. / A man is taking a picture.",
+  "kind": "a"
+ },
+ {
+  "id": "aaao3em",
+  "text": "He wants to play soccer, but he can't because it is raining.",
+  "kind": "a"
+ },
+ {
+  "id": "adk3zku",
+  "text": "Yes. They can learn many things and help other people.",
+  "kind": "a"
+ },
+ {
+  "id": "ayv5j9a",
+  "text": "Yes. I cleaned a beach with my friends last summer.",
+  "kind": "a"
+ },
+ {
+  "id": "a1izwgy2",
+  "text": "By giving owners advice about their pets' health on the Internet.",
+  "kind": "a"
+ },
+ {
+  "id": "ave69z2",
+  "text": "A man is washing a dog. / A woman is feeding a cat. / A girl is reading a book. / A boy is drinking water. / A woman is opening a window.",
+  "kind": "a"
+ },
+ {
+  "id": "ahxyabq",
+  "text": "She wants to enter the store with her dog, but she can't because pets are not allowed.",
+  "kind": "a"
+ },
+ {
+  "id": "akvyoft",
+  "text": "Yes. Children can learn to take care of animals.",
+  "kind": "a"
+ },
+ {
+  "id": "a1sg1s7c",
+  "text": "Yes. I especially like dogs because they are friendly.",
+  "kind": "a"
+ },
+ {
+  "id": "a9fo56t",
+  "text": "By asking customers to bring their own shopping bags.",
+  "kind": "a"
+ },
+ {
+  "id": "a1biqbap",
+  "text": "A woman is carrying a shopping bag. / A man is throwing away a can. / A girl is drinking juice. / A man is reading a newspaper. / A woman is talking with her child.",
+  "kind": "a"
+ },
+ {
+  "id": "a1ke7n62",
+  "text": "He wants to buy a drink, but he can't because he doesn't have any coins.",
+  "kind": "a"
+ },
+ {
+  "id": "a1otxs8r",
+  "text": "Yes. Plastic bags are bad for the environment, so we should use our own bags.",
+  "kind": "a"
+ },
+ {
+  "id": "acbq4il",
+  "text": "Yes. I always keep a small bag in my car.",
+  "kind": "a"
+ },
+ {
+  "id": "a1z0jmaz",
+  "text": "By serving dishes with a lot of local vegetables.",
+  "kind": "a"
+ },
+ {
+  "id": "a1biwx30",
+  "text": "A man is cooking. / A woman is cleaning the table. / A boy is carrying dishes. / A girl is washing her hands. / A man is looking at the menu.",
+  "kind": "a"
+ },
+ {
+  "id": "a33ixw9",
+  "text": "She wants to eat the cake, but she can't because she is on a diet.",
+  "kind": "a"
+ },
+ {
+  "id": "absnj4a",
+  "text": "Yes. Breakfast gives us energy for the day.",
+  "kind": "a"
+ },
+ {
+  "id": "a1tn7f3t",
+  "text": "I like sushi the best. I often eat it with my family.",
+  "kind": "a"
+ },
+ {
+  "id": "a1v3gz2q",
+  "text": "By teaching students how to use smartphones safely.",
+  "kind": "a"
+ },
+ {
+  "id": "a1fyjhib",
+  "text": "A boy is talking on the phone. / A girl is listening to music. / A man is using a computer. / A woman is taking a picture. / A boy is opening his bag.",
+  "kind": "a"
+ },
+ {
+  "id": "a1f3f5w6",
+  "text": "He wants to play video games, but he can't because he hasn't finished his homework.",
+  "kind": "a"
+ },
+ {
+  "id": "a3eho3w",
+  "text": "No. Students may use them during class, so they can't listen to their teachers.",
+  "kind": "a"
+ },
+ {
+  "id": "a61djuy",
+  "text": "I use it every day, especially at night.",
+  "kind": "a"
+ },
+ {
+  "id": "a13k49cn",
+  "text": "By opening cafes inside.",
+  "kind": "a"
+ },
+ {
+  "id": "a1v4uzz9",
+  "text": "A woman is borrowing a book. / A man is going up the stairs. / A girl is drawing a picture. / A boy is sitting on a chair. / A man is making a copy.",
+  "kind": "a"
+ },
+ {
+  "id": "a1yx1i0x",
+  "text": "He wants to talk on the phone, but he can't because using phones is not allowed in the library.",
+  "kind": "a"
+ },
+ {
+  "id": "abg0n5s",
+  "text": "Yes. People can enjoy books and events for free.",
+  "kind": "a"
+ },
+ {
+  "id": "ak2cucn",
+  "text": "Yes. I read books about cars and business.",
+  "kind": "a"
+ },
+ {
+  "id": "a3n58xl",
+  "text": "By selling fresh vegetables from local farms.",
+  "kind": "a"
+ },
+ {
+  "id": "a73coxo",
+  "text": "A woman is putting products on the shelf. / A man is reading a magazine. / A boy is choosing ice cream. / A woman is pouring coffee. / A man is paying money.",
+  "kind": "a"
+ },
+ {
+  "id": "axmtzgd",
+  "text": "She wants to buy something, but she can't because she left her wallet at home.",
+  "kind": "a"
+ },
+ {
+  "id": "a1lkiq5b",
+  "text": "No. Working at night is hard, so I think they should close at night.",
+  "kind": "a"
+ },
+ {
+  "id": "anbr3sx",
+  "text": "I go there almost every day to buy coffee.",
+  "kind": "a"
+ },
+ {
+  "id": "a1qcnqbr",
+  "text": "By selling special tickets with discounts for tourists.",
+  "kind": "a"
+ },
+ {
+  "id": "a14fv3al",
+  "text": "A man is buying a ticket. / A woman is waiting on the bench. / A girl is getting on the train. / A man is looking at the timetable. / A woman is talking on the phone.",
+  "kind": "a"
+ },
+ {
+  "id": "afd9jue",
+  "text": "He wants to get on the train, but he can't because the doors have just closed.",
+  "kind": "a"
+ },
+ {
+  "id": "a18a3euy",
+  "text": "No. I think cars are better because we can go anywhere at any time.",
+  "kind": "a"
+ },
+ {
+  "id": "ajrnrcc",
+  "text": "Yes. We went to Tokyo by Shinkansen last year.",
+  "kind": "a"
+ },
+ {
+  "id": "awvt9u9",
+  "text": "By collecting old uniforms from graduates and giving them to new students.",
+  "kind": "a"
+ },
+ {
+  "id": "atgpga0",
+  "text": "A boy is wearing a school uniform. / A girl is putting textbooks in her bag. / A man is writing on the blackboard. / A girl is cleaning the window. / A boy is talking with his friend.",
+  "kind": "a"
+ },
+ {
+  "id": "a8put1p",
+  "text": "She wants to enter the classroom, but she can't because the door is locked.",
+  "kind": "a"
+ },
+ {
+  "id": "a1g6j1g8",
+  "text": "Yes. Students don't have to think about clothes, so they can spend more time studying.",
+  "kind": "a"
+ },
+ {
+  "id": "a1h8pkop",
+  "text": "I usually wear a T-shirt and jeans because they are comfortable.",
+  "kind": "a"
+ },
+ {
+  "id": "a1j18kyi",
+  "text": "By making beautiful walking courses along rivers.",
+  "kind": "a"
+ },
+ {
+  "id": "a1tkw9y",
+  "text": "A man is running. / A woman is walking with her dog. / A boy is drinking water. / A woman is stretching. / A man is resting on the bench.",
+  "kind": "a"
+ },
+ {
+  "id": "a1ccvtn1",
+  "text": "She wants to go jogging, but she can't because there is a lot of snow.",
+  "kind": "a"
+ },
+ {
+  "id": "ahbngtd",
+  "text": "No. Many people sit for a long time at work, so they need to move more.",
+  "kind": "a"
+ },
+ {
+  "id": "agjtl13",
+  "text": "Yes. I try to walk after dinner a few times a week.",
+  "kind": "a"
+ },
+ {
+  "id": "aybwpo",
+  "text": "By putting signs in several languages.",
+  "kind": "a"
+ },
+ {
+  "id": "a1ruljtp",
+  "text": "A woman is looking at a map. / A man is taking pictures. / A girl is buying souvenirs. / A man is waiting for a bus. / A woman is asking a question at the information center.",
+  "kind": "a"
+ },
+ {
+  "id": "a1it86fx",
+  "text": "He wants to eat at the restaurant, but he can't because it is full.",
+  "kind": "a"
+ },
+ {
+  "id": "a1nwzpb8",
+  "text": "Yes. Japanese food and culture are popular around the world.",
+  "kind": "a"
+ },
+ {
+  "id": "a1610mmu",
+  "text": "Yes. I sometimes talk with foreign customers at my shop.",
+  "kind": "a"
+ },
+ {
+  "id": "a1rudwwj",
+  "text": "By letting students watch the same lesson many times.",
+  "kind": "a"
+ },
+ {
+  "id": "a179avvx",
+  "text": "A girl is studying on the computer. / A man is wearing headphones. / A woman is writing in her notebook. / A boy is using a dictionary. / A woman is drinking tea.",
+  "kind": "a"
+ },
+ {
+  "id": "a11ookus",
+  "text": "He wants to watch a video, but he can't because the Internet is too slow.",
+  "kind": "a"
+ },
+ {
+  "id": "ab8vay8",
+  "text": "No. At school, students can ask their teachers questions easily.",
+  "kind": "a"
+ },
+ {
+  "id": "a19u36ad",
+  "text": "Yes. I study English online every day with a learning app.",
+  "kind": "a"
+ },
+ {
+  "id": "ad4pvam",
+  "text": "By asking local companies for help.",
+  "kind": "a"
+ },
+ {
+  "id": "a1se714x",
+  "text": "A man is cooking fried noodles. / A girl is catching goldfish. / A woman in a yukata is walking. / A boy is eating shaved ice. / A man is playing the drum.",
+  "kind": "a"
+ },
+ {
+  "id": "a1y3ql9d",
+  "text": "She wants to watch the fireworks, but she can't see them well because there are too many people.",
+  "kind": "a"
+ },
+ {
+  "id": "anzquma",
+  "text": "Yes. Traditional events bring people in the town together.",
+  "kind": "a"
+ },
+ {
+  "id": "aheh3ak",
+  "text": "Yes. I go to the local festival with my children every year.",
+  "kind": "a"
+ },
+ {
+  "id": "a15oduot",
+  "text": "By letting people borrow bicycles at stations for a small fee.",
+  "kind": "a"
+ },
+ {
+  "id": "a1rf2dbk",
+  "text": "A man is repairing a bicycle. / A girl is wearing a helmet. / A woman is walking with her bicycle. / A boy is locking his bicycle. / A man is looking at a map app.",
+  "kind": "a"
+ },
+ {
+  "id": "a1cbvo9w",
+  "text": "She wants to ride her bicycle, but she can't because the tire is flat.",
+  "kind": "a"
+ },
+ {
+  "id": "aezmhsn",
+  "text": "Yes, for short trips. Bicycles are good for our health and the environment.",
+  "kind": "a"
+ },
+ {
+  "id": "a12r83b",
+  "text": "I go to work by car because my office is far from my house.",
+  "kind": "a"
+ },
+ {
+  "id": "ahnjxxe",
+  "text": "By letting students choose their working days freely.",
+  "kind": "a"
+ },
+ {
+  "id": "a1k878ud",
+  "text": "A woman is using the cash register. / A man is sweeping the floor. / A boy is opening a cardboard box. / A girl is wearing a uniform. / A man is putting on a name tag.",
+  "kind": "a"
+ },
+ {
+  "id": "add4ebc",
+  "text": "He wants to go home, but he can't because he hasn't finished his work.",
+  "kind": "a"
+ },
+ {
+  "id": "avc64z8",
+  "text": "Yes. They can learn the value of money and how to work with others.",
+  "kind": "a"
+ },
+ {
+  "id": "aqstep4",
+  "text": "My first job was at my family's car shop. I helped my father.",
+  "kind": "a"
+ },
+ {
+  "id": "a54vim1",
+  "text": "By sending guidebooks with pictures to every home.",
+  "kind": "a"
+ },
+ {
+  "id": "a1imeshx",
+  "text": "A woman is separating cans. / A man is tying newspapers with a string. / A boy is crushing a plastic bottle. / A girl is carrying a box. / A man is putting on work gloves.",
+  "kind": "a"
+ },
+ {
+  "id": "axaqbhg",
+  "text": "She wants to take out the garbage, but she can't because today is not a collection day.",
+  "kind": "a"
+ },
+ {
+  "id": "abplerz",
+  "text": "Yes. Recycling saves resources and protects the environment.",
+  "kind": "a"
+ },
+ {
+  "id": "a1f23poy",
+  "text": "Yes. We separate cans, bottles, and paper every week.",
+  "kind": "a"
+ },
+ {
+  "id": "ayfiwg5",
+  "text": "By offering online lessons for beginners.",
+  "kind": "a"
+ },
+ {
+  "id": "a1y22glr",
+  "text": "A girl is playing the piano. / A man is carrying a guitar. / A woman is singing. / A boy is playing the drums. / A man is looking at the music sheet.",
+  "kind": "a"
+ },
+ {
+  "id": "a5hxsch",
+  "text": "He wants to listen to music, but he can't because his earphones are broken.",
+  "kind": "a"
+ },
+ {
+  "id": "aicynrp",
+  "text": "Yes. Children can learn to keep practicing every day.",
+  "kind": "a"
+ },
+ {
+  "id": "a1fittmr",
+  "text": "I like Japanese pop music. I often listen to it while driving.",
+  "kind": "a"
+ },
+ {
+  "id": "a15c4s9q",
+  "text": "By showing short videos of easy recipes.",
+  "kind": "a"
+ },
+ {
+  "id": "ak1cbxv",
+  "text": "A woman is cutting vegetables. / A man is stirring a pot. / A girl is setting the table. / A boy is washing the dishes. / A woman is reading a recipe.",
+  "kind": "a"
+ },
+ {
+  "id": "a1dqdv5e",
+  "text": "He wants to make curry, but he can't because he doesn't have enough ingredients.",
+  "kind": "a"
+ },
+ {
+  "id": "a1j3w6k0",
+  "text": "Yes. Cooking at home is cheaper, and we can choose healthy food.",
+  "kind": "a"
+ },
+ {
+  "id": "a163d3a3",
+  "text": "Sometimes. I cook curry for my children on weekends.",
+  "kind": "a"
+ },
+ {
+  "id": "a1hjhsm",
+  "text": "By putting more lights along the paths.",
+  "kind": "a"
+ },
+ {
+  "id": "a1ybeu8e",
+  "text": "A boy is riding on a swing. / A woman is sitting on the grass. / A man is watering flowers. / A girl is throwing a ball. / A man is walking his dog.",
+  "kind": "a"
+ },
+ {
+  "id": "a1mfps7",
+  "text": "She wants to play with a ball, but she can't because ball games are not allowed in the park.",
+  "kind": "a"
+ },
+ {
+  "id": "ahs2k4b",
+  "text": "Yes. Parks give children a safe place to play outside.",
+  "kind": "a"
+ },
+ {
+  "id": "a103eko4",
+  "text": "Yes. I sometimes take my children to a park near my house.",
+  "kind": "a"
+ },
+ {
+  "id": "aja10mk",
+  "text": "By holding training events for local people.",
+  "kind": "a"
+ },
+ {
+  "id": "a1od37qr",
+  "text": "A man is putting water bottles in a box. / A woman is checking a flashlight. / A boy is wearing a helmet. / A girl is pointing at a map. / A man is arranging emergency food.",
+  "kind": "a"
+ },
+ {
+  "id": "aerm5eb",
+  "text": "She wants to go out, but she can't because a typhoon is coming.",
+  "kind": "a"
+ },
+ {
+  "id": "a1dttmd6",
+  "text": "Yes. We should keep water and food at home just in case.",
+  "kind": "a"
+ },
+ {
+  "id": "a1n42ige",
+  "text": "Yes. We keep water and a radio in our car and at home.",
+  "kind": "a"
+ },
+ {
+  "id": "a6lsbl1",
+  "text": "By putting clear signs at the entrance.",
+  "kind": "a"
+ },
+ {
+  "id": "a10psial",
+  "text": "A woman is taking a picture of flowers. / A man is looking at a painting. / A girl is charging her smartphone. / A boy is taking a selfie with his friend. / A woman is reading a brochure.",
+  "kind": "a"
+ },
+ {
+  "id": "a18qgug8",
+  "text": "He wants to take a picture, but he can't because taking photos is not allowed here.",
+  "kind": "a"
+ },
+ {
+  "id": "a1k191di",
+  "text": "Yes. Some people look at their phones instead of enjoying the moment.",
+  "kind": "a"
+ },
+ {
+  "id": "a1yovluq",
+  "text": "Yes. I take photos of cars for my shop's website.",
+  "kind": "a"
+ },
+ {
+  "id": "al47hz",
+  "text": "By giving students ten minutes to read every morning.",
+  "kind": "a"
+ },
+ {
+  "id": "adysc6j",
+  "text": "A girl is reading a book. / A man is putting a book back on the shelf. / A woman is taking notes. / A boy is sleeping. / A man is drinking coffee.",
+  "kind": "a"
+ },
+ {
+  "id": "a1vvx4vm",
+  "text": "He wants to borrow a book, but he can't because he forgot his library card.",
+  "kind": "a"
+ },
+ {
+  "id": "a12ab8tp",
+  "text": "Yes. When we read, we can think slowly and understand deeply.",
+  "kind": "a"
+ },
+ {
+  "id": "a8mu45d",
+  "text": "I like books about business and cars.",
+  "kind": "a"
+ },
+ {
+  "id": "a19kwh7f",
+  "text": "By keeping both cash and cashless systems.",
+  "kind": "a"
+ },
+ {
+  "id": "a4unmv1",
+  "text": "A woman is paying with her smartphone. / A man is opening his wallet. / A girl is handing a card to the clerk. / A boy is receiving a receipt. / A woman is putting items in her bag.",
+  "kind": "a"
+ },
+ {
+  "id": "ava5ct0",
+  "text": "He wants to pay by card, but he can't because this shop takes only cash.",
+  "kind": "a"
+ },
+ {
+  "id": "axazz70",
+  "text": "Yes, but slowly. Many older people still like using cash.",
+  "kind": "a"
+ },
+ {
+  "id": "a1h9d9wq",
+  "text": "Yes. I usually pay by card because it is faster.",
+  "kind": "a"
+ },
+ {
+  "id": "abbw52k",
+  "text": "By bringing checkup buses to their offices.",
+  "kind": "a"
+ },
+ {
+  "id": "ayvxncu",
+  "text": "A woman is checking her weight. / A man is checking his blood pressure. / A nurse is handing a paper to a patient. / A boy is waiting on a chair. / A woman is drinking water.",
+  "kind": "a"
+ },
+ {
+  "id": "aeoqgks",
+  "text": "He wants to see a doctor, but he has to wait for a long time because the hospital is crowded.",
+  "kind": "a"
+ },
+ {
+  "id": "a1wnqza8",
+  "text": "Yes. Finding problems early makes treatment easier and cheaper.",
+  "kind": "a"
+ },
+ {
+  "id": "avfx2c1",
+  "text": "Yes. I try to sleep well and walk when I have time.",
+  "kind": "a"
+ },
+ {
+  "id": "ab683no",
+  "text": "By offering boxes and packing help for free.",
+  "kind": "a"
+ },
+ {
+  "id": "a2rwne6",
+  "text": "A man is carrying furniture. / A woman is wrapping dishes in newspaper. / A boy is putting tape on a box. / A girl is cleaning the room. / A man is loading boxes into a truck.",
+  "kind": "a"
+ },
+ {
+  "id": "ascr7ge",
+  "text": "She wants to bring the sofa into the room, but she can't because the door is too narrow.",
+  "kind": "a"
+ },
+ {
+  "id": "aoy1e0i",
+  "text": "Yes. You can build strong relationships with your neighbors.",
+  "kind": "a"
+ },
+ {
+  "id": "a1kk0q83",
+  "text": "Yes. I moved once when I was a child.",
+  "kind": "a"
+ },
+ {
+  "id": "ac6wfuf",
+  "text": "By selling ready-made New Year's dishes.",
+  "kind": "a"
+ },
+ {
+  "id": "a1wgkant",
+  "text": "A woman is grilling rice cakes. / A man is writing New Year's cards. / A girl is receiving a gift of money. / A boy is flying a kite. / A man is praying at a shrine.",
+  "kind": "a"
+ },
+ {
+  "id": "adsl5nj",
+  "text": "He wants to go to the shrine, but he can't because the roads are too crowded.",
+  "kind": "a"
+ },
+ {
+  "id": "a1hotvms",
+  "text": "Yes. They bring family members together and teach children about our culture.",
+  "kind": "a"
+ },
+ {
+  "id": "a13ssczg",
+  "text": "I visit a shrine with my family and eat special food at home.",
+  "kind": "a"
+ },
+ {
+  "id": "a1th7og9",
+  "text": "By selling cheaper tickets for children and their families.",
+  "kind": "a"
+ },
+ {
+  "id": "a8b2brb",
+  "text": "A man is waving a flag. / A woman is eating a hot dog. / A boy is taking a picture of a player. / A girl is cheering. / A man is looking through binoculars.",
+  "kind": "a"
+ },
+ {
+  "id": "a17cnarb",
+  "text": "She wants to watch the game, but she can't see it because the person in front of her is tall.",
+  "kind": "a"
+ },
+ {
+  "id": "a1mzqs3o",
+  "text": "Yes. At a stadium, we can feel the excitement with many other fans.",
+  "kind": "a"
+ },
+ {
+  "id": "a10kc77c",
+  "text": "Yes. I sometimes watch baseball games on TV with my children.",
+  "kind": "a"
+ },
+ {
+  "id": "av5xsis",
+  "text": "By teaching visitors about protecting wild animals.",
+  "kind": "a"
+ },
+ {
+  "id": "auiz6wa",
+  "text": "A girl is looking at penguins. / A man is carrying a child on his shoulders. / A woman is eating ice cream. / A boy is pointing at fish. / A woman is reading a sign.",
+  "kind": "a"
+ },
+ {
+  "id": "a15nnb66",
+  "text": "He wants to see the lion, but he can't because the lion is sleeping inside.",
+  "kind": "a"
+ },
+ {
+  "id": "ak084d5",
+  "text": "Yes. Children can learn about animals and enjoy nature.",
+  "kind": "a"
+ },
+ {
+  "id": "auczqk",
+  "text": "Yes. I went to an aquarium with my family last summer.",
+  "kind": "a"
+ },
+ {
+  "id": "a1ht1w88",
+  "text": "By checking the quality of used items before selling them.",
+  "kind": "a"
+ },
+ {
+  "id": "a1morb9k",
+  "text": "A woman is choosing used clothes. / A man is looking at a price tag. / A boy is trying a used bicycle. / A girl is putting a book back on the shelf. / A man is taking a picture of a product.",
+  "kind": "a"
+ },
+ {
+  "id": "a1r3b7im",
+  "text": "He wants to buy a used car, but he can't because it is too expensive.",
+  "kind": "a"
+ },
+ {
+  "id": "awap1b5",
+  "text": "Yes. People can save money, and it is good for the environment.",
+  "kind": "a"
+ },
+ {
+  "id": "a16y5w5l",
+  "text": "Yes. I often buy and sell used cars in my job.",
+  "kind": "a"
+ },
+ {
+  "id": "arsxgjg",
+  "text": "By putting the farmer's name and photo on each package.",
+  "kind": "a"
+ },
+ {
+  "id": "a1tagt15",
+  "text": "A man is picking tomatoes. / A woman is putting vegetables in a bag. / A boy is carrying a basket. / A girl is washing strawberries. / A man is writing prices.",
+  "kind": "a"
+ },
+ {
+  "id": "a1mmwwvm",
+  "text": "She wants to buy tomatoes, but she can't because they are sold out.",
+  "kind": "a"
+ },
+ {
+  "id": "aqajr8k",
+  "text": "Yes. It supports local farmers and the food is fresher.",
+  "kind": "a"
+ },
+ {
+  "id": "a18hmaz9",
+  "text": "Yes. I sometimes buy vegetables from a farm near my house.",
+  "kind": "a"
+ },
+ {
+  "id": "a1ab2tzo",
+  "text": "Excuse me. Is this seat taken?",
+  "kind": "line"
+ },
+ {
+  "id": "a13uqf5z",
+  "text": "I'm home, Mom.",
+  "kind": "line"
+ },
+ {
+  "id": "a7iwnv7",
+  "text": "Hi, Tom. How was the school trip?",
+  "kind": "line"
+ },
+ {
+  "id": "a814poo",
+  "text": "Would you like paper or plastic bags?",
+  "kind": "line"
+ },
+ {
+  "id": "a1i1rxlc",
+  "text": "This cake is delicious. Did you make it yourself?",
+  "kind": "line"
+ },
+ {
+  "id": "ahi4mp0",
+  "text": "Excuse me. What time does the next bus for the airport leave?",
+  "kind": "line"
+ },
+ {
+  "id": "a1d6wn3q",
+  "text": "I can't find my glasses anywhere.",
+  "kind": "line"
+ },
+ {
+  "id": "aanlpv",
+  "text": "Did you check your desk?",
+  "kind": "line"
+ },
+ {
+  "id": "a1oqhmu7",
+  "text": "Yes, but they're not there.",
+  "kind": "line"
+ },
+ {
+  "id": "a1in9njl",
+  "text": "How would you like your steak?",
+  "kind": "line"
+ },
+ {
+  "id": "a1j6uzvg",
+  "text": "Shall I carry your bag? It looks heavy.",
+  "kind": "line"
+ },
+ {
+  "id": "a16afmlr",
+  "text": "Have you finished your science report yet?",
+  "kind": "line"
+ },
+ {
+  "id": "a1kpw594",
+  "text": "Not yet. I've been busy with club activities.",
+  "kind": "line"
+ },
+ {
+  "id": "aua2kbi",
+  "text": "The teacher said it's due tomorrow.",
+  "kind": "line"
+ },
+ {
+  "id": "a1h2xbu8",
+  "text": "I'm thinking of getting a dog. What do you think?",
+  "kind": "line"
+ },
+ {
+  "id": "acoh7uq",
+  "text": "Excuse me, sir. You dropped your wallet.",
+  "kind": "line"
+ },
+ {
+  "id": "a1j744ks",
+  "text": "How often do you go to the gym?",
+  "kind": "line"
+ },
+ {
+  "id": "a1a56kxl",
+  "text": "graduated",
+  "kind": "choice"
+ },
+ {
+  "id": "a1s38qng",
+  "text": "improved",
+  "kind": "choice"
+ },
+ {
+  "id": "aw8kcpt",
+  "text": "injured",
+  "kind": "choice"
+ },
+ {
+  "id": "a1952ml6",
+  "text": "gathered",
+  "kind": "choice"
+ },
+ {
+  "id": "a5s96g3",
+  "text": "looking",
+  "kind": "choice"
+ },
+ {
+  "id": "a1kgirgk",
+  "text": "taking",
+  "kind": "choice"
+ },
+ {
+  "id": "a1efj1xq",
+  "text": "giving",
+  "kind": "choice"
+ },
+ {
+  "id": "apnaojj",
+  "text": "running",
+  "kind": "choice"
+ },
+ {
+  "id": "a1jyzll",
+  "text": "broke",
+  "kind": "choice"
+ },
+ {
+  "id": "a1krn7q4",
+  "text": "turned",
+  "kind": "choice"
+ },
+ {
+  "id": "a1es13ri",
+  "text": "handed",
+  "kind": "choice"
+ },
+ {
+  "id": "a1k3ejbw",
+  "text": "showed",
+  "kind": "choice"
+ },
+ {
+  "id": "a2fez",
+  "text": "run",
+  "kind": "choice"
+ },
+ {
+  "id": "a2dxr",
+  "text": "put",
+  "kind": "choice"
+ },
+ {
+  "id": "a2fs2",
+  "text": "set",
+  "kind": "choice"
+ },
+ {
+  "id": "a1kkhx6w",
+  "text": "thrown",
+  "kind": "choice"
+ },
+ {
+  "id": "a1tkp0",
+  "text": "come",
+  "kind": "choice"
+ },
+ {
+  "id": "a2js",
+  "text": "go",
+  "kind": "choice"
+ },
+ {
+  "id": "a1zbmn",
+  "text": "look",
+  "kind": "choice"
+ },
+ {
+  "id": "a24k1p",
+  "text": "turn",
+  "kind": "choice"
+ },
+ {
+  "id": "a1gvxhtq",
+  "text": "looked",
+  "kind": "choice"
+ },
+ {
+  "id": "a1n1646",
+  "text": "heard",
+  "kind": "choice"
+ },
+ {
+  "id": "a1m4dj6",
+  "text": "found",
+  "kind": "choice"
+ },
+ {
+  "id": "a1va87",
+  "text": "felt",
+  "kind": "choice"
+ },
+ {
+  "id": "a1wh9r",
+  "text": "hand",
+  "kind": "choice"
+ },
+ {
+  "id": "a21qu9",
+  "text": "pick",
+  "kind": "choice"
+ },
+ {
+  "id": "a1toyqu",
+  "text": "throw",
+  "kind": "choice"
+ },
+ {
+  "id": "a1taam",
+  "text": "call",
+  "kind": "choice"
+ },
+ {
+  "id": "a1tkcef",
+  "text": "taken",
+  "kind": "choice"
+ },
+ {
+  "id": "a1mkcql",
+  "text": "given",
+  "kind": "choice"
+ },
+ {
+  "id": "a1znyt",
+  "text": "made",
+  "kind": "choice"
+ },
+ {
+  "id": "a21l9v",
+  "text": "part",
+  "kind": "choice"
+ },
+ {
+  "id": "a1rjzev",
+  "text": "place",
+  "kind": "choice"
+ },
+ {
+  "id": "a1tafl",
+  "text": "care",
+  "kind": "choice"
+ },
+ {
+  "id": "a1tx9jq",
+  "text": "turns",
+  "kind": "choice"
+ },
+ {
+  "id": "ajwvzpj",
+  "text": "was built",
+  "kind": "choice"
+ },
+ {
+  "id": "akpzoq",
+  "text": "is building",
+  "kind": "choice"
+ },
+ {
+  "id": "a163vzp4",
+  "text": "has built",
+  "kind": "choice"
+ },
+ {
+  "id": "a1c8o891",
+  "text": "builds",
+  "kind": "choice"
+ },
+ {
+  "id": "abkw69f",
+  "text": "haven't",
+  "kind": "choice"
+ },
+ {
+  "id": "a1d02r0c",
+  "text": "didn't",
+  "kind": "choice"
+ },
+ {
+  "id": "a1vgoqr",
+  "text": "won't",
+  "kind": "choice"
+ },
+ {
+  "id": "a1lvssk2",
+  "text": "wasn't",
+  "kind": "choice"
+ },
+ {
+  "id": "a1ewb2kv",
+  "text": "higher",
+  "kind": "choice"
+ },
+ {
+  "id": "a1wn1e",
+  "text": "high",
+  "kind": "choice"
+ },
+ {
+  "id": "af520mc",
+  "text": "highest",
+  "kind": "choice"
+ },
+ {
+  "id": "asmm5md",
+  "text": "the highest",
+  "kind": "choice"
+ },
+ {
+  "id": "a2ita",
+  "text": "who",
+  "kind": "choice"
+ },
+ {
+  "id": "a1vc5jx",
+  "text": "which",
+  "kind": "choice"
+ },
+ {
+  "id": "a1vcads",
+  "text": "whose",
+  "kind": "choice"
+ },
+ {
+  "id": "a266ys",
+  "text": "what",
+  "kind": "choice"
+ },
+ {
+  "id": "a1ez35es",
+  "text": "to wash",
+  "kind": "choice"
+ },
+ {
+  "id": "ailwqub",
+  "text": "washing",
+  "kind": "choice"
+ },
+ {
+  "id": "a1lvspku",
+  "text": "washed",
+  "kind": "choice"
+ },
+ {
+  "id": "a26273",
+  "text": "wash",
+  "kind": "choice"
+ },
+ {
+  "id": "ayqcwjq",
+  "text": "Although",
+  "kind": "choice"
+ },
+ {
+  "id": "anoduxy",
+  "text": "Because",
+  "kind": "choice"
+ },
+ {
+  "id": "a1tp",
+  "text": "If",
+  "kind": "choice"
+ },
+ {
+  "id": "a1cr7lq",
+  "text": "Until",
+  "kind": "choice"
+ },
+ {
+  "id": "a1k7sn6q",
+  "text": "spoken",
+  "kind": "choice"
+ },
+ {
+  "id": "azq6w9c",
+  "text": "speaking",
+  "kind": "choice"
+ },
+ {
+  "id": "a1k7m21t",
+  "text": "speaks",
+  "kind": "choice"
+ },
+ {
+  "id": "ahhak8d",
+  "text": "to speak",
+  "kind": "choice"
+ },
+ {
+  "id": "a20361",
+  "text": "must",
+  "kind": "choice"
+ },
+ {
+  "id": "a1k7v25",
+  "text": "can't",
+  "kind": "choice"
+ },
+ {
+  "id": "a12sp288",
+  "text": "shouldn't",
+  "kind": "choice"
+ },
+ {
+  "id": "ady6wt4",
+  "text": "may not",
+  "kind": "choice"
+ },
+ {
+  "id": "a1ez1898",
+  "text": "to take",
+  "kind": "choice"
+ },
+ {
+  "id": "a2451j",
+  "text": "take",
+  "kind": "choice"
+ },
+ {
+  "id": "a2lm",
+  "text": "is",
+  "kind": "choice"
+ },
+ {
+  "id": "amag7dd",
+  "text": "will be",
+  "kind": "choice"
+ },
+ {
+  "id": "a2ind",
+  "text": "was",
+  "kind": "choice"
+ },
+ {
+  "id": "a2654x",
+  "text": "were",
+  "kind": "choice"
+ },
+ {
+  "id": "a1sxfl7n",
+  "text": "Go straight and turn left at the bank.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1jy4bov",
+  "text": "I've never read that book.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1b8rna7",
+  "text": "The library was built ten years ago.",
+  "kind": "choice"
+ },
+ {
+  "id": "aflt2iz",
+  "text": "You should buy a new bag.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1hzdchc",
+  "text": "I stayed up late watching soccer last night.",
+  "kind": "choice"
+ },
+ {
+  "id": "a19dha2m",
+  "text": "I went to bed at nine.",
+  "kind": "choice"
+ },
+ {
+  "id": "aodcyeb",
+  "text": "I feel great today.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1f35mv7",
+  "text": "I don't like soccer.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1shfvwa",
+  "text": "No, thank you.",
+  "kind": "choice"
+ },
+ {
+  "id": "aa1xmxc",
+  "text": "Yes, here you are.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1h9odb0",
+  "text": "That's too expensive.",
+  "kind": "choice"
+ },
+ {
+  "id": "a13qd07k",
+  "text": "See you later.",
+  "kind": "choice"
+ },
+ {
+  "id": "aq6kgpf",
+  "text": "Not yet.",
+  "kind": "choice"
+ },
+ {
+  "id": "augums2",
+  "text": "Yes, the check, please.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1n6dz4g",
+  "text": "I ordered it online.",
+  "kind": "choice"
+ },
+ {
+  "id": "alhr56d",
+  "text": "Here's your change.",
+  "kind": "choice"
+ },
+ {
+  "id": "a86jk0v",
+  "text": "Sorry, she's out now.",
+  "kind": "choice"
+ },
+ {
+  "id": "a478w1q",
+  "text": "Speaking.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1sq4ehp",
+  "text": "Wrong number, Kenta.",
+  "kind": "choice"
+ },
+ {
+  "id": "a4ozo2f",
+  "text": "Yes, I'm Lisa.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1f5zkwo",
+  "text": "It was wonderful.",
+  "kind": "choice"
+ },
+ {
+  "id": "a17wkdi4",
+  "text": "It takes two hours.",
+  "kind": "choice"
+ },
+ {
+  "id": "a2j8bnb",
+  "text": "I've never been there.",
+  "kind": "choice"
+ },
+ {
+  "id": "akzxnf",
+  "text": "It will be sunny.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1e244m9",
+  "text": "What size does he wear?",
+  "kind": "choice"
+ },
+ {
+  "id": "a1w1f2m9",
+  "text": "How much is it?",
+  "kind": "choice"
+ },
+ {
+  "id": "aqw5lus",
+  "text": "When is his birthday?",
+  "kind": "choice"
+ },
+ {
+  "id": "a12555we",
+  "text": "Where does he live?",
+  "kind": "choice"
+ },
+ {
+  "id": "a10rget5",
+  "text": "Sorry, I can't.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1cfqzoq",
+  "text": "Sounds great. Let's go.",
+  "kind": "choice"
+ },
+ {
+  "id": "azvl9wk",
+  "text": "I love your report.",
+  "kind": "choice"
+ },
+ {
+  "id": "a8v0h52",
+  "text": "Yes, I've been there.",
+  "kind": "choice"
+ },
+ {
+  "id": "a38v61b",
+  "text": "Shall I help you with it?",
+  "kind": "choice"
+ },
+ {
+  "id": "awnwglr",
+  "text": "I'm good at cooking.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1u1jewx",
+  "text": "You should give it up.",
+  "kind": "choice"
+ },
+ {
+  "id": "ab7wlzz",
+  "text": "Math is my worst subject, too.",
+  "kind": "choice"
+ },
+ {
+  "id": "a121nh1g",
+  "text": "It's a lot of fun, but the training is hard.",
+  "kind": "choice"
+ },
+ {
+  "id": "abtmjx2",
+  "text": "I don't know where it is.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1m1qh48",
+  "text": "I quit the club last year.",
+  "kind": "choice"
+ },
+ {
+  "id": "aegq0e9",
+  "text": "Tennis is played by two or four people.",
+  "kind": "choice"
+ },
+ {
+  "id": "avy8xmo",
+  "text": "How about six?",
+  "kind": "choice"
+ },
+ {
+  "id": "a6870t6",
+  "text": "It's seven thirty now.",
+  "kind": "choice"
+ },
+ {
+  "id": "a16ge3rv",
+  "text": "The movie was boring.",
+  "kind": "choice"
+ },
+ {
+  "id": "ayq8xyz",
+  "text": "I met him yesterday.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1wjtz9p",
+  "text": "How was it?",
+  "kind": "choice"
+ },
+ {
+  "id": "ab243gu",
+  "text": "Who are you?",
+  "kind": "choice"
+ },
+ {
+  "id": "asiue1a",
+  "text": "Where is the stadium?",
+  "kind": "choice"
+ },
+ {
+  "id": "amq37jz",
+  "text": "What time is it now?",
+  "kind": "choice"
+ },
+ {
+  "id": "a7zubm8",
+  "text": "No, go ahead.",
+  "kind": "choice"
+ },
+ {
+  "id": "ax36gvi",
+  "text": "Yes, it's raining.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1e7iz0v",
+  "text": "I took the bus.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1yo8026",
+  "text": "It's next to the window.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1to59ik",
+  "text": "It was great. We saw many old temples.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1cbnxw6",
+  "text": "I'm going to school now.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1rjgasg",
+  "text": "The trip will be next month.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1nd79r0",
+  "text": "You should come home early.",
+  "kind": "choice"
+ },
+ {
+  "id": "aei6d2c",
+  "text": "Paper, please.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1090all",
+  "text": "Yes, please.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1nksarx",
+  "text": "Two bags of apples.",
+  "kind": "choice"
+ },
+ {
+  "id": "abe7s6n",
+  "text": "I'll pay by card.",
+  "kind": "choice"
+ },
+ {
+  "id": "aaw9zb2",
+  "text": "Yes, I baked it this morning.",
+  "kind": "choice"
+ },
+ {
+  "id": "a4cwvah",
+  "text": "No, I don't like cake.",
+  "kind": "choice"
+ },
+ {
+  "id": "ae0f70c",
+  "text": "The bakery is closed today.",
+  "kind": "choice"
+ },
+ {
+  "id": "ar0mrne",
+  "text": "You can make it, too.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1rwdsga",
+  "text": "In ten minutes, from stop number three.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1v5ta6r",
+  "text": "It takes about an hour.",
+  "kind": "choice"
+ },
+ {
+  "id": "a791v6z",
+  "text": "The airport is very large.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1h4qel7",
+  "text": "I'm going there, too.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1flwul2",
+  "text": "I saw them on the kitchen table.",
+  "kind": "choice"
+ },
+ {
+  "id": "aavxoxc",
+  "text": "You should buy a desk.",
+  "kind": "choice"
+ },
+ {
+  "id": "a17b6ihx",
+  "text": "I can't see anything.",
+  "kind": "choice"
+ },
+ {
+  "id": "a16cnxh2",
+  "text": "They look good on you.",
+  "kind": "choice"
+ },
+ {
+  "id": "a17s9qcv",
+  "text": "Well-done, please.",
+  "kind": "choice"
+ },
+ {
+  "id": "ahsq2w",
+  "text": "I'd like chicken.",
+  "kind": "choice"
+ },
+ {
+  "id": "ab9nw1",
+  "text": "It was delicious.",
+  "kind": "choice"
+ },
+ {
+  "id": "asgv3x1",
+  "text": "At the restaurant.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1grzhic",
+  "text": "Thanks. That's very kind of you.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1phxkb2",
+  "text": "No, I'm not hungry.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1cs7vml",
+  "text": "It was very cheap.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1qiq1vn",
+  "text": "I bought it yesterday.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1enczev",
+  "text": "I know. I'll finish it tonight.",
+  "kind": "choice"
+ },
+ {
+  "id": "a46jbsc",
+  "text": "Science is my favorite subject.",
+  "kind": "choice"
+ },
+ {
+  "id": "az5217w",
+  "text": "The club meets on Fridays.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1tpu0r7",
+  "text": "You did a good job.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1aqgmzl",
+  "text": "That's a good idea. Dogs are great friends.",
+  "kind": "choice"
+ },
+ {
+  "id": "a57n6db",
+  "text": "I think it's going to rain.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1caa1e",
+  "text": "My dog is ten years old.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1dll7ui",
+  "text": "You should think about it more, so no.",
+  "kind": "choice"
+ },
+ {
+  "id": "azvm6us",
+  "text": "Oh, thank you so much!",
+  "kind": "choice"
+ },
+ {
+  "id": "a1yr07r7",
+  "text": "No, it's too expensive.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1kpve8j",
+  "text": "I don't have any money.",
+  "kind": "choice"
+ },
+ {
+  "id": "axct5xt",
+  "text": "You're welcome.",
+  "kind": "choice"
+ },
+ {
+  "id": "avh726o",
+  "text": "About twice a week.",
+  "kind": "choice"
+ },
+ {
+  "id": "ae9wht6",
+  "text": "For two hours.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1eluh0",
+  "text": "By bike.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1lppjd8",
+  "text": "Since last April.",
+  "kind": "choice"
+ },
+ {
+  "id": "agnurtu",
+  "text": "I think that students should study English. I have two reasons.",
+  "kind": "choice"
+ },
+ {
+  "id": "a74lr12",
+  "text": "My reasons is two about English.",
+  "kind": "choice"
+ },
+ {
+  "id": "a14u9rpz",
+  "text": "I am two reasons for English.",
+  "kind": "choice"
+ },
+ {
+  "id": "avwzomt",
+  "text": "It is thinking that English is good.",
+  "kind": "choice"
+ },
+ {
+  "id": "aysz6ho",
+  "text": "First,",
+  "kind": "choice"
+ },
+ {
+  "id": "a2a88o9",
+  "text": "At first,",
+  "kind": "choice"
+ },
+ {
+  "id": "a1grza",
+  "text": "One,",
+  "kind": "choice"
+ },
+ {
+  "id": "a1ldl8xb",
+  "text": "First time,",
+  "kind": "choice"
+ },
+ {
+  "id": "a1o41b14",
+  "text": "Second,",
+  "kind": "choice"
+ },
+ {
+  "id": "a1k5ts",
+  "text": "Two,",
+  "kind": "choice"
+ },
+ {
+  "id": "a1mxy6r6",
+  "text": "Next time,",
+  "kind": "choice"
+ },
+ {
+  "id": "a13xlhv6",
+  "text": "Second times,",
+  "kind": "choice"
+ },
+ {
+  "id": "aunlms9",
+  "text": "For example,",
+  "kind": "choice"
+ },
+ {
+  "id": "a5layq3",
+  "text": "For sample,",
+  "kind": "choice"
+ },
+ {
+  "id": "at2yqgt",
+  "text": "In example,",
+  "kind": "choice"
+ },
+ {
+  "id": "a1uggi98",
+  "text": "Example is,",
+  "kind": "choice"
+ },
+ {
+  "id": "am5qd8u",
+  "text": "For these reasons, I think students should study English.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1qeppwi",
+  "text": "By the way, I think so.",
+  "kind": "choice"
+ },
+ {
+  "id": "ap67xn6",
+  "text": "In my opinion is good.",
+  "kind": "choice"
+ },
+ {
+  "id": "amd1nyk",
+  "text": "That's all my reasons end.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1jw19am",
+  "text": "People should use their own bags.",
+  "kind": "choice"
+ },
+ {
+  "id": "a184hd9d",
+  "text": "People should to use their own bags.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1nhtjkb",
+  "text": "People should using their own bags.",
+  "kind": "choice"
+ },
+ {
+  "id": "aq52j2y",
+  "text": "People are should use their own bags.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1ostfvo",
+  "text": "I agree with this idea.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1mqn70e",
+  "text": "I am agree with this idea.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1g2kum8",
+  "text": "I agree happy this idea.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1ps6o9d",
+  "text": "It is agree with me.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1qx778g",
+  "text": "However, some people do not agree with this idea.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1csdyaf",
+  "text": "But however, some people agree not.",
+  "kind": "choice"
+ },
+ {
+  "id": "a6196dd",
+  "text": "However it is but, people disagree.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1u7piu4",
+  "text": "Some people, however but, do not.",
+  "kind": "choice"
+ },
+ {
+  "id": "anrfdrk",
+  "text": "Thank you for your e-mail.",
+  "kind": "choice"
+ },
+ {
+  "id": "a18bozf9",
+  "text": "You are welcome to my e-mail.",
+  "kind": "choice"
+ },
+ {
+  "id": "agrdtxs",
+  "text": "I am e-mail to you.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1so15u8",
+  "text": "Dear your e-mail.",
+  "kind": "choice"
+ },
+ {
+  "id": "aue6h04",
+  "text": "I'm glad to hear that you got a new bike.",
+  "kind": "choice"
+ },
+ {
+  "id": "a180ii0i",
+  "text": "I hear you a new bike.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1085otp",
+  "text": "Glad new bike to you.",
+  "kind": "choice"
+ },
+ {
+  "id": "aoofpuf",
+  "text": "It hears very good.",
+  "kind": "choice"
+ },
+ {
+  "id": "a3fqilr",
+  "text": "I visited an old castle and took many pictures.",
+  "kind": "choice"
+ },
+ {
+  "id": "a4sfry5",
+  "text": "Yes, I did there.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1i20m0a",
+  "text": "I will go there next week.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1adsd2s",
+  "text": "It was there yesterday.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1mfva7g",
+  "text": "I like summer better because I can go swimming in the sea.",
+  "kind": "choice"
+ },
+ {
+  "id": "aktcsl2",
+  "text": "I like summer better why I can swim.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1hnt9n6",
+  "text": "Because summer is swimming.",
+  "kind": "choice"
+ },
+ {
+  "id": "a15garpw",
+  "text": "Summer is more better than winter.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1j4m5df",
+  "text": "This is because it is good for our health.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1uumsng",
+  "text": "This is why because health.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1b1wxk2",
+  "text": "Because of it is health.",
+  "kind": "choice"
+ },
+ {
+  "id": "a16rsa5w",
+  "text": "This is because of we are healthy.",
+  "kind": "choice"
+ },
+ {
+  "id": "a2mkh7s",
+  "text": "Also, it is good for the environment.",
+  "kind": "choice"
+ },
+ {
+  "id": "al5h9gb",
+  "text": "And too, it is environment.",
+  "kind": "choice"
+ },
+ {
+  "id": "a17gpeq8",
+  "text": "More and, it is good.",
+  "kind": "choice"
+ },
+ {
+  "id": "a145egz3",
+  "text": "Too also, environment is good.",
+  "kind": "choice"
+ }
+]
