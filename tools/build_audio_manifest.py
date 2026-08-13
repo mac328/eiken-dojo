@@ -89,14 +89,18 @@ def collect(html):
     """index.html の 中から 英語のテキストを あつめます"""
     items = {}   # id -> text (重複は 自動で ひとつに)
 
-    def add(text, kind):
+    def add(text, kind, speaker=None):
         text = text.strip()
         if not is_english(text):
             return
-        # 模範解答の "A / B / C" は 1本の音声として そのまま読ませる
-        i = js_hash(text)
+        # 話者が ある場合は 「話者|本文」で ファイル名を 決めます
+        key = (speaker + "|" + text) if speaker else text
+        i = js_hash(key)
         if i not in items:
-            items[i] = {"id": i, "text": text, "kind": kind}
+            it = {"id": i, "text": text, "kind": kind}
+            if speaker:
+                it["speaker"] = speaker
+            items[i] = it
 
     # --- 単語・熟語 (["achieve","〜を達成する","動"] の 3つ組) ---
     # 品詞は 動/名/形/副/熟 のどれか(大文字小文字どちらのエスケープにも対応)
@@ -111,10 +115,17 @@ def collect(html):
         for m in re.finditer(key + r':"((?:[^"\\]|\\.)*)"', html):
             add(unescape_js(m.group(1)), key)
 
-    # lines:["...","..."] (会話リスニング)
-    for m in re.finditer(r'lines:\[((?:"(?:[^"\\]|\\.)*",?)+)\]', html):
-        for mm in re.finditer(r'"((?:[^"\\]|\\.)*)"', m.group(1)):
-            add(unescape_js(mm.group(1)), "line")
+    # lines:[...] と sp:[...] (会話リスニング)
+    # 話者(M=男性 F=女性 K=子ども)ごとに 別の声で 作るので、
+    # ファイル名も 「話者|本文」から 決めます(index.html と 同じ規則)。
+    pat = r'lines:\[((?:"(?:[^"\\]|\\.)*",?)+)\](?:,sp:\[((?:"[A-Z]",?)+)\])?'
+    for m in re.finditer(pat, html):
+        texts = [unescape_js(x) for x in
+                 re.findall(r'"((?:[^"\\]|\\.)*)"', m.group(1))]
+        sps = re.findall(r'"([A-Z])"', m.group(2) or "")
+        for k, t in enumerate(texts):
+            sp = sps[k] if k < len(sps) else None
+            add(t, "line", speaker=sp)
 
     # c:[...] の 選択肢 (会話文・会話リスニングの 英語選択肢)
     for m in re.finditer(r'c:\[((?:"(?:[^"\\]|\\.)*",?){2,4})\]', html):

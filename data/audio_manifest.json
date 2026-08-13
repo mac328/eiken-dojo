@@ -2840,89 +2840,106 @@
   "kind": "a"
  },
  {
-  "id": "a1ab2tzo",
+  "id": "a1grhazn",
   "text": "Excuse me. Is this seat taken?",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "M"
  },
  {
-  "id": "a13uqf5z",
+  "id": "ac3zw9k",
   "text": "I'm home, Mom.",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "K"
  },
  {
-  "id": "a7iwnv7",
+  "id": "a1nbcbkt",
   "text": "Hi, Tom. How was the school trip?",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "F"
  },
  {
-  "id": "a814poo",
+  "id": "afbmjte",
   "text": "Would you like paper or plastic bags?",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "F"
  },
  {
-  "id": "a1i1rxlc",
+  "id": "a9dri75",
   "text": "This cake is delicious. Did you make it yourself?",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "M"
  },
  {
-  "id": "ahi4mp0",
+  "id": "a1a7tb5a",
   "text": "Excuse me. What time does the next bus for the airport leave?",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "F"
  },
  {
-  "id": "a1d6wn3q",
+  "id": "agm1dzb",
   "text": "I can't find my glasses anywhere.",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "M"
  },
  {
-  "id": "aanlpv",
+  "id": "a129beeh",
   "text": "Did you check your desk?",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "F"
  },
  {
-  "id": "a1oqhmu7",
+  "id": "a1tt2h80",
   "text": "Yes, but they're not there.",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "M"
  },
  {
-  "id": "a1in9njl",
+  "id": "a1p3o4jk",
   "text": "How would you like your steak?",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "M"
  },
  {
-  "id": "a1j6uzvg",
+  "id": "ajb3n1p",
   "text": "Shall I carry your bag? It looks heavy.",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "M"
  },
  {
-  "id": "a16afmlr",
+  "id": "a1ustcbp",
   "text": "Have you finished your science report yet?",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "F"
  },
  {
-  "id": "a1kpw594",
+  "id": "a1wtw089",
   "text": "Not yet. I've been busy with club activities.",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "M"
  },
  {
-  "id": "aua2kbi",
+  "id": "a7o42aw",
   "text": "The teacher said it's due tomorrow.",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "F"
  },
  {
-  "id": "a1h2xbu8",
+  "id": "ajafk6y",
   "text": "I'm thinking of getting a dog. What do you think?",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "F"
  },
  {
-  "id": "acoh7uq",
+  "id": "amgmt4o",
   "text": "Excuse me, sir. You dropped your wallet.",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "F"
  },
  {
-  "id": "a1j744ks",
+  "id": "a1688lml",
   "text": "How often do you go to the gym?",
-  "kind": "line"
+  "kind": "line",
+  "speaker": "M"
  },
  {
   "id": "a1a56kxl",

@@ -14,7 +14,15 @@ import json
 import os
 import sys
 
-VOICE = "en-US-JennyNeural"   # 声を変えたいときはここ
+VOICE = "en-US-JennyNeural"   # ふだんの声(単語・模範解答など)
+
+# 会話リスニングで つかう 声
+#   M = 大人の男性 / F = 大人の女性 / K = 子ども
+VOICES = {
+    "M": "en-US-GuyNeural",
+    "F": "en-US-JennyNeural",
+    "K": "en-US-AnaNeural",
+}
 RATE = "-10%"                 # 少しゆっくり。ふつうの速さにするなら "+0%"
 PARALLEL = 8                  # 同時に作る数
 RETRY = 3                     # しっぱいしたときのやりなおし回数
@@ -85,7 +93,8 @@ async def one(item, sem, counter):
         for attempt in range(RETRY):
             tmp = path + ".part"
             try:
-                tts = edge_tts.Communicate(speak_text(item), VOICE, rate=RATE)
+                voice = VOICES.get(item.get("speaker"), VOICE)
+                tts = edge_tts.Communicate(speak_text(item), voice, rate=RATE)
                 await tts.save(tmp)
                 if os.path.getsize(tmp) < 500:
                     raise RuntimeError("ファイルが小さすぎます")
@@ -125,7 +134,11 @@ async def main():
     n_gone = clean_orphans(items)
     if n_gone:
         print("\n  使われなくなった mp3 を %d 個 かたづけました" % n_gone)
+    n_sp = sum(1 for i in items if i.get("speaker"))
     print("\n  声       : %s" % VOICE)
+    if n_sp:
+        print("  会話の声 : 男性 %s / 女性 %s / 子ども %s  (%d本)"
+              % (VOICES["M"], VOICES["F"], VOICES["K"], n_sp))
     print("  はやさ   : %s" % RATE)
     print("  作る数   : %d 個" % len(items))
     print("  ほぞん先 : %s\n" % OUT)
