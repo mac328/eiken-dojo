@@ -23,6 +23,14 @@ VOICES = {
     "F": "en-US-JennyNeural",
     "K": "en-US-AnaNeural",
 }
+
+# 声の たかさ(ピッチ)の 調整。
+# 子ども(K)の声は そのままだと 幼すぎるので すこし 低くしています。
+# もっと低くしたいときは "-25Hz" のように 数字を 大きく、
+# 高くもどしたいときは "-5Hz" や "+0Hz" にしてください。
+PITCH = {
+    "K": "-18Hz",
+}
 RATE = "-10%"                 # 少しゆっくり。ふつうの速さにするなら "+0%"
 PARALLEL = 8                  # 同時に作る数
 RETRY = 3                     # しっぱいしたときのやりなおし回数
@@ -93,8 +101,11 @@ async def one(item, sem, counter):
         for attempt in range(RETRY):
             tmp = path + ".part"
             try:
-                voice = VOICES.get(item.get("speaker"), VOICE)
-                tts = edge_tts.Communicate(speak_text(item), voice, rate=RATE)
+                sp = item.get("speaker")
+                voice = VOICES.get(sp, VOICE)
+                pitch = PITCH.get(sp, "+0Hz")
+                tts = edge_tts.Communicate(speak_text(item), voice,
+                                           rate=RATE, pitch=pitch)
                 await tts.save(tmp)
                 if os.path.getsize(tmp) < 500:
                     raise RuntimeError("ファイルが小さすぎます")
@@ -137,8 +148,9 @@ async def main():
     n_sp = sum(1 for i in items if i.get("speaker"))
     print("\n  声       : %s" % VOICE)
     if n_sp:
-        print("  会話の声 : 男性 %s / 女性 %s / 子ども %s  (%d本)"
-              % (VOICES["M"], VOICES["F"], VOICES["K"], n_sp))
+        print("  会話の声 : 男性 %s / 女性 %s / 子ども %s%s  (%d本)"
+              % (VOICES["M"], VOICES["F"], VOICES["K"],
+                 " " + PITCH["K"] if PITCH.get("K") else "", n_sp))
     print("  はやさ   : %s" % RATE)
     print("  作る数   : %d 個" % len(items))
     print("  ほぞん先 : %s\n" % OUT)
