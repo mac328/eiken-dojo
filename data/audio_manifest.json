@@ -1950,6 +1950,96 @@
   "kind": "q"
  },
  {
+  "id": "a1fnka7l",
+  "text": "What time should volunteers meet at the park?",
+  "kind": "q"
+ },
+ {
+  "id": "a14csm06",
+  "text": "What do volunteers need to bring?",
+  "kind": "q"
+ },
+ {
+  "id": "ard6drv",
+  "text": "What will happen if it rains on May 18?",
+  "kind": "q"
+ },
+ {
+  "id": "a16clqdb",
+  "text": "What does Lisa ask Kenta to do?",
+  "kind": "q"
+ },
+ {
+  "id": "aaknhzx",
+  "text": "Why does Tom want to come to the festival?",
+  "kind": "q"
+ },
+ {
+  "id": "a12ppwe",
+  "text": "What does Lisa want to do after the festival?",
+  "kind": "q"
+ },
+ {
+  "id": "a6msiv5",
+  "text": "How long are guide dogs trained before they start working?",
+  "kind": "q"
+ },
+ {
+  "id": "a1evomjb",
+  "text": "What kind of dogs are usually chosen as guide dogs?",
+  "kind": "q"
+ },
+ {
+  "id": "aqq2cqf",
+  "text": "Why shouldn't people touch a working guide dog?",
+  "kind": "q"
+ },
+ {
+  "id": "aq4w1q1",
+  "text": "Why can vegetables be grown all year in vertical farms?",
+  "kind": "q"
+ },
+ {
+  "id": "a4nl8kd",
+  "text": "What is a problem with vertical farming?",
+  "kind": "q"
+ },
+ {
+  "id": "aifqc0h",
+  "text": "How are some companies trying to solve the problem?",
+  "kind": "q"
+ },
+ {
+  "id": "a11g9dkc",
+  "text": "What was different about the first bicycle?",
+  "kind": "q"
+ },
+ {
+  "id": "a1inyc55",
+  "text": "Why was riding early bicycles not comfortable?",
+  "kind": "q"
+ },
+ {
+  "id": "a1luw9vv",
+  "text": "What made bicycles popular around the world?",
+  "kind": "q"
+ },
+ {
+  "id": "aeioy44",
+  "text": "How long do students in France take for lunch?",
+  "kind": "q"
+ },
+ {
+  "id": "a8yf3ny",
+  "text": "What do many schools in India serve to students?",
+  "kind": "q"
+ },
+ {
+  "id": "adzxsgd",
+  "text": "What do some people say about school lunches?",
+  "kind": "q"
+ },
+ {
   "id": "a16hyaz2",
   "text": "By letting customers return clothes for free.",
   "kind": "a"
@@ -3957,6 +4047,366 @@
  {
   "id": "a145egz3",
   "text": "Too also, environment is good.",
+  "kind": "choice"
+ },
+ {
+  "id": "a28ci9q",
+  "text": "At 8:45 a.m.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1hbnckg",
+  "text": "At 9:00 a.m.",
+  "kind": "choice"
+ },
+ {
+  "id": "a15fxigx",
+  "text": "At noon.",
+  "kind": "choice"
+ },
+ {
+  "id": "at89pkr",
+  "text": "At 8:15 a.m.",
+  "kind": "choice"
+ },
+ {
+  "id": "ajrktue",
+  "text": "Their own drink.",
+  "kind": "choice"
+ },
+ {
+  "id": "atjj6s4",
+  "text": "Gloves.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1wkoimw",
+  "text": "Garbage bags.",
+  "kind": "choice"
+ },
+ {
+  "id": "ajterep",
+  "text": "Ice cream.",
+  "kind": "choice"
+ },
+ {
+  "id": "a119brwe",
+  "text": "The event will be held the next Saturday.",
+  "kind": "choice"
+ },
+ {
+  "id": "a7zmehd",
+  "text": "The event will be canceled.",
+  "kind": "choice"
+ },
+ {
+  "id": "awxrt4b",
+  "text": "The event will be held inside.",
+  "kind": "choice"
+ },
+ {
+  "id": "aycfzfc",
+  "text": "The event will start at noon.",
+  "kind": "choice"
+ },
+ {
+  "id": "audw4b6",
+  "text": "Meet her at the station.",
+  "kind": "choice"
+ },
+ {
+  "id": "aychqe3",
+  "text": "Buy train tickets for her.",
+  "kind": "choice"
+ },
+ {
+  "id": "amdb3db",
+  "text": "Make a robot with Tom.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1r0z0wl",
+  "text": "Cook pizza for dinner.",
+  "kind": "choice"
+ },
+ {
+  "id": "af75al1",
+  "text": "He is interested in the robot show.",
+  "kind": "choice"
+ },
+ {
+  "id": "a14i4kfd",
+  "text": "He likes Italian food.",
+  "kind": "choice"
+ },
+ {
+  "id": "a16t42jd",
+  "text": "He wants to take a train.",
+  "kind": "choice"
+ },
+ {
+  "id": "asnbzyh",
+  "text": "He goes to Kenta's school.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1iy56d7",
+  "text": "Have dinner at a restaurant.",
+  "kind": "choice"
+ },
+ {
+  "id": "a6iamt7",
+  "text": "Watch the robot show again.",
+  "kind": "choice"
+ },
+ {
+  "id": "a196c5z0",
+  "text": "Go back home right away.",
+  "kind": "choice"
+ },
+ {
+  "id": "adhc712",
+  "text": "Visit Kenta's house.",
+  "kind": "choice"
+ },
+ {
+  "id": "a9k10fq",
+  "text": "For about two years.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1i0mk1p",
+  "text": "For about two months.",
+  "kind": "choice"
+ },
+ {
+  "id": "alkmjr9",
+  "text": "For about ten years.",
+  "kind": "choice"
+ },
+ {
+  "id": "a8m06el",
+  "text": "For about two weeks.",
+  "kind": "choice"
+ },
+ {
+  "id": "a14v6edo",
+  "text": "Calm and friendly dogs.",
+  "kind": "choice"
+ },
+ {
+  "id": "a10skxvb",
+  "text": "Big and strong dogs.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1hwpnmq",
+  "text": "Fast and young dogs.",
+  "kind": "choice"
+ },
+ {
+  "id": "aruoqcp",
+  "text": "Small and quiet dogs.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1d0weee",
+  "text": "Because it must think about its owner's safety.",
+  "kind": "choice"
+ },
+ {
+  "id": "aaiy3hp",
+  "text": "Because it may get angry.",
+  "kind": "choice"
+ },
+ {
+  "id": "a18682fh",
+  "text": "Because it is always sleeping.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1m52za9",
+  "text": "Because its owner will be surprised.",
+  "kind": "choice"
+ },
+ {
+  "id": "a18qf9x",
+  "text": "Because weather does not affect them.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1kxxuno",
+  "text": "Because they grow near windows.",
+  "kind": "choice"
+ },
+ {
+  "id": "avwjw94",
+  "text": "Because farmers water them every day.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1p5e4qb",
+  "text": "Because the buildings are warm.",
+  "kind": "choice"
+ },
+ {
+  "id": "air7dnk",
+  "text": "It needs a lot of electricity.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1wcngn3",
+  "text": "It uses too much water.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1w97mz9",
+  "text": "Vegetables grow too slowly.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1384szk",
+  "text": "Buildings are too small.",
+  "kind": "choice"
+ },
+ {
+  "id": "ag6e3jh",
+  "text": "By using solar power.",
+  "kind": "choice"
+ },
+ {
+  "id": "a16z581g",
+  "text": "By building taller farms.",
+  "kind": "choice"
+ },
+ {
+  "id": "ada5sbj",
+  "text": "By selling cheaper vegetables.",
+  "kind": "choice"
+ },
+ {
+  "id": "a60o2t9",
+  "text": "By growing vegetables outside.",
+  "kind": "choice"
+ },
+ {
+  "id": "ajdghk0",
+  "text": "It had no pedals.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1kgk1ah",
+  "text": "It had rubber tires.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1t662bc",
+  "text": "It was made of plastic.",
+  "kind": "choice"
+ },
+ {
+  "id": "a467npm",
+  "text": "It had three wheels.",
+  "kind": "choice"
+ },
+ {
+  "id": "a2tlbq7",
+  "text": "Because they had wooden wheels.",
+  "kind": "choice"
+ },
+ {
+  "id": "akvsqqt",
+  "text": "Because they were too fast.",
+  "kind": "choice"
+ },
+ {
+  "id": "aefljdg",
+  "text": "Because they were too small.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1vkzbdn",
+  "text": "Because riders had to stand.",
+  "kind": "choice"
+ },
+ {
+  "id": "a164d2vn",
+  "text": "Rubber tires.",
+  "kind": "choice"
+ },
+ {
+  "id": "a3oxxos",
+  "text": "Wooden wheels.",
+  "kind": "choice"
+ },
+ {
+  "id": "ak9y8ta",
+  "text": "Faster pedals.",
+  "kind": "choice"
+ },
+ {
+  "id": "a17gpjob",
+  "text": "New roads.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1upbrh8",
+  "text": "More than one hour.",
+  "kind": "choice"
+ },
+ {
+  "id": "ap1g5mg",
+  "text": "About 15 minutes.",
+  "kind": "choice"
+ },
+ {
+  "id": "acewxw",
+  "text": "Half an hour.",
+  "kind": "choice"
+ },
+ {
+  "id": "a11stfwc",
+  "text": "Two full hours.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1glkttr",
+  "text": "Free curry and rice.",
+  "kind": "choice"
+ },
+ {
+  "id": "akkybou",
+  "text": "A four-course meal.",
+  "kind": "choice"
+ },
+ {
+  "id": "ack72xu",
+  "text": "Bread and milk.",
+  "kind": "choice"
+ },
+ {
+  "id": "awqzg95",
+  "text": "Cold sandwiches.",
+  "kind": "choice"
+ },
+ {
+  "id": "ao41zuh",
+  "text": "They teach children about culture and working together.",
+  "kind": "choice"
+ },
+ {
+  "id": "aot95cd",
+  "text": "They should be shorter.",
+  "kind": "choice"
+ },
+ {
+  "id": "avym037",
+  "text": "They are too expensive.",
+  "kind": "choice"
+ },
+ {
+  "id": "a1jhhwn2",
+  "text": "They should be cooked by students.",
   "kind": "choice"
  }
 ]
