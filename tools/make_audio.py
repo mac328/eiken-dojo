@@ -29,7 +29,7 @@ VOICES = {
 # もっと低くしたいときは "-25Hz" のように 数字を 大きく、
 # 高くもどしたいときは "-5Hz" や "+0Hz" にしてください。
 PITCH = {
-    "K": "-18Hz",
+    "K": "-60Hz",
 }
 RATE = "-10%"                 # 少しゆっくり。ふつうの速さにするなら "+0%"
 PARALLEL = 8                  # 同時に作る数
@@ -82,6 +82,35 @@ class Counter:
         sys.stdout.flush()
 
 
+# --- 前後の 無音を 切りとる ---------------------------------
+# edge-tts の mp3 は おしりに 1秒ちかい 無音が つくので、
+# 会話が とぎれて 聞こえます。それを 短くします。
+TRIM = True          # 無音カットを つかうか
+KEEP_MS = 80         # 前後に のこす 余白(ミリ秒)
+
+def trim_silence(path):
+    """mp3の 前後の 無音を けずって 上書きします。
+    pydub が 入っていない ときは なにも しません。"""
+    if not TRIM:
+        return
+    try:
+        from pydub import AudioSegment
+        from pydub.silence import detect_leading_silence
+    except ImportError:
+        return
+    try:
+        a = AudioSegment.from_mp3(path)
+        lead = detect_leading_silence(a, silence_threshold=-45)
+        tail = detect_leading_silence(a.reverse(), silence_threshold=-45)
+        start = max(0, lead - KEEP_MS)
+        end = len(a) - max(0, tail - KEEP_MS)
+        if end - start < 200:      # 短すぎるときは さわらない
+            return
+        a[start:end].export(path, format="mp3", bitrate="48k")
+    except Exception:
+        pass
+
+
 def speak_text(item):
     """よみあげ用に 少し ととのえます。
     模範解答の 「A / B / C」は スラッシュのままだと 読みにくいので
@@ -110,6 +139,7 @@ async def one(item, sem, counter):
                 if os.path.getsize(tmp) < 500:
                     raise RuntimeError("ファイルが小さすぎます")
                 os.replace(tmp, path)
+                trim_silence(path)
                 counter.tick("made")
                 return
             except Exception:
@@ -154,6 +184,16 @@ async def main():
     print("  はやさ   : %s" % RATE)
     print("  作る数   : %d 個" % len(items))
     print("  ほぞん先 : %s\n" % OUT)
+
+    if TRIM:
+        try:
+            import pydub  # noqa
+            print("  無音カット: ON (前後の 無音を けずります)")
+        except ImportError:
+            print("  無音カット: OFF")
+            print("    ※ pip install pydub  を すると、会話の 間が")
+            print("      ちょうど よくなります(ffmpeg も 必要です)")
+    print("")
 
     counter = Counter(len(items))
     sem = asyncio.Semaphore(PARALLEL)
