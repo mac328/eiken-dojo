@@ -87,26 +87,49 @@ class Counter:
 # 会話が とぎれて 聞こえます。それを 短くします。
 TRIM = True          # 無音カットを つかうか
 KEEP_MS = 80         # 前後に のこす 余白(ミリ秒)
+GAP_MS = 220         # 文と文の あいだの 無音を この長さまで 縮めます
+                     # (「。」のあとの 長い ポーズ対策。0にはしないこと)
 
 def trim_silence(path):
-    """mp3の 前後の 無音を けずって 上書きします。
+    """mp3の 無音を ととのえて 上書きします。
+      (1) 前後の 無音を けずる
+      (2) 文と文の あいだの 長い 無音を GAP_MS まで 縮める
     pydub が 入っていない ときは なにも しません。"""
     if not TRIM:
         return
     try:
         from pydub import AudioSegment
-        from pydub.silence import detect_leading_silence
+        from pydub.silence import detect_leading_silence, detect_silence
     except ImportError:
         return
     try:
         a = AudioSegment.from_mp3(path)
+
+        # (1) 前後を そろえる
         lead = detect_leading_silence(a, silence_threshold=-45)
         tail = detect_leading_silence(a.reverse(), silence_threshold=-45)
         start = max(0, lead - KEEP_MS)
         end = len(a) - max(0, tail - KEEP_MS)
         if end - start < 200:      # 短すぎるときは さわらない
             return
-        a[start:end].export(path, format="mp3", bitrate="48k")
+        a = a[start:end]
+
+        # (2) まん中の 長い 無音を 縮める
+        #     GAP_MS より 長い ところだけ 対象(短い 区切りは そのまま)
+        gaps = [(s, e) for s, e in
+                detect_silence(a, min_silence_len=GAP_MS + 80,
+                               silence_thresh=-45)
+                if s > 50 and e < len(a) - 50]
+        if gaps:
+            out = AudioSegment.empty()
+            pos = 0
+            for s, e in gaps:
+                out += a[pos:s] + a[s:s + GAP_MS]
+                pos = e
+            out += a[pos:]
+            a = out
+
+        a.export(path, format="mp3", bitrate="48k")
     except Exception:
         pass
 
