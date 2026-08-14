@@ -18,7 +18,7 @@ import sys
 # ためす 組み合わせ (ファイル名のあたま, 声, ピッチ)
 PATTERNS = [
     ("1_ana_sonomama",   "en-US-AnaNeural",    "+0Hz"),
-    ("2_ana_m40",        "en-US-AnaNeural",    "-40Hz"),
+    ("2_ana_m20",        "en-US-AnaNeural",    "-20Hz"),
     ("3_ana_m60",        "en-US-AnaNeural",    "-60Hz"),   # いまの 設定
     ("4_ana_m80",        "en-US-AnaNeural",    "-80Hz"),
     ("5_ana_m100",       "en-US-AnaNeural",    "-100Hz"),
