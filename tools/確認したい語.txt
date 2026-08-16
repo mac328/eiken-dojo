@@ -1,0 +1,13 @@
+# まだ 判定していない 語。try_voices.py --short で J と M を くらべます。
+purpose
+suffer
+surround
+weigh
+height
+climate
+ceremony
+audience
+stomach
+statue
+vehicle
+novel

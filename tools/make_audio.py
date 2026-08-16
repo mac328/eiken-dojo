@@ -12,9 +12,36 @@
 import asyncio
 import json
 import os
+import re
 import sys
 
-VOICE = "en-US-JennyNeural"   # ふだんの声(単語・模範解答など)
+VOICE = "en-US-JennyNeural"   # ふだんの声(文を よむとき。選択肢・模範解答・音読など)
+
+# 単語カード(1語だけ)を よむときの 声。
+#   ふだんは VOICE と 同じ Jenny。聞きとりやすさが いちばん よいためです。
+#   Jenny が 読みまちがえる 語だけ、下の VOICE_FOR で 別の声に します。
+VOICE_WORD = "en-US-JennyNeural"
+
+# 語ごとに 声を 指定したい ときの 例外表。
+#   VOICE_WORD で うまく 読めない 語だけ、ここに 書きます。
+#   例) graduate は Michelle だと 名詞の 読み(グラデュエット)に なるので、
+#       動詞の 読み(グラデュエイト)が できる Jenny を つかいます。
+#   Jenny は 語あたまの v が 弱く、日本語話者には d のように 聞こえます。
+#   音声認識は 前後から 補って 正しく 認識できてしまいますが、
+#   このアプリの つかい手は 学習者なので、聞き分けやすさを 優先して
+#   「v で はじまる語」は まとめて Michelle に します。
+#   (Michelle は v を はっきり 出します)
+VOICE_FOR = {
+    # v ではじまる語(全6語)
+    "variety": "en-US-MichelleNeural",
+    "various": "en-US-MichelleNeural",
+    "vehicle": "en-US-MichelleNeural",
+    "view": "en-US-MichelleNeural",
+    "valuable": "en-US-MichelleNeural",
+    "volunteer": "en-US-MichelleNeural",
+    # Jenny だと 「クース(coos)」に なる
+    "cause": "en-US-MichelleNeural",
+}
 
 # 会話リスニングで つかう 声
 #   M = 大人の男性 / F = 大人の女性 / K = 子ども
@@ -32,6 +59,30 @@ PITCH = {
     "K": "-20Hz",
 }
 RATE = "-10%"                 # 少しゆっくり。ふつうの速さにするなら "+0%"
+
+
+# ============================================================
+# 読み上げが おかしい 語の 言いかえ表
+# ============================================================
+# TTS に 1語だけ わたすと、まちがった 読み方に なることが あります。
+# (例) cause … 単独だと because の 短縮形 'cause と 解釈されて
+#              「クース」のように 弱く 読まれてしまう
+#
+# ここに 「もとのつづり: 読ませたい つづり」を 書くと、
+# 音声を 作るときだけ 差しかえます。
+# ファイル名は もとの つづりから 決まるので、
+# index.html は さわらなくて 大丈夫です。
+#
+# 直したい語を 見つけたら 1行 足して、その語の mp3 を 消してから
+# make_audio.py を もう一度 実行してください。
+# どの つづりが よいかは  python tools/try_pron.py cause  で
+# 聴きくらべて 決められます。
+SAY_AS = {
+    # いまは 空です。
+    # 声を かえても どうしても 直らない 語が 出たら、ここに 書きます。
+    # 例)  "cause": "koz",
+}
+
 PARALLEL = 8                  # 同時に作る数
 RETRY = 3                     # しっぱいしたときのやりなおし回数
 
@@ -136,9 +187,25 @@ def trim_silence(path):
 
 def speak_text(item):
     """よみあげ用に 少し ととのえます。
-    模範解答の 「A / B / C」は スラッシュのままだと 読みにくいので
-    間(ま)が あくように します。"""
+      (1) 言いかえ表に ある語は 差しかえる
+      (2) 熟語の 記号(〜 や -ing)を 読み上げ用に ととのえる
+      (3) 模範解答の 「A / B / C」は 間(ま)が あくように する
+    """
     t = item["text"]
+
+    # (1) 言いかえ表(完全一致のみ)
+    if t in SAY_AS:
+        return SAY_AS[t]
+
+    # (2) 熟語の 記号
+    #     「〜」は 読ませない。 "look after 〜" → "look after"
+    t = t.replace("\u301c", " ").replace("\uff5e", " ")
+    #     "-ing" は そのままだと 記号として 読まれるので doing に する
+    #     "keep -ing" → "keep doing" / "be used to -ing" → "be used to doing"
+    t = re.sub(r"\s*-ing\b", " doing", t)
+    t = re.sub(r"\s+", " ", t).strip()
+
+    # (3) スラッシュ区切り
     if " / " in t:
         t = t.replace(" / ", " ... ")
     return t
@@ -154,7 +221,13 @@ async def one(item, sem, counter):
             tmp = path + ".part"
             try:
                 sp = item.get("speaker")
-                voice = VOICES.get(sp, VOICE)
+                if sp:
+                    voice = VOICES.get(sp, VOICE)
+                elif item.get("kind") == "word":
+                    # 単語カードは 専用の声。語ごとの 指定が あれば そちら。
+                    voice = VOICE_FOR.get(item["text"], VOICE_WORD)
+                else:
+                    voice = VOICE
                 pitch = PITCH.get(sp, "+0Hz")
                 tts = edge_tts.Communicate(speak_text(item), voice,
                                            rate=RATE, pitch=pitch)
@@ -199,7 +272,9 @@ async def main():
     if n_gone:
         print("\n  使われなくなった mp3 を %d 個 かたづけました" % n_gone)
     n_sp = sum(1 for i in items if i.get("speaker"))
-    print("\n  声       : %s" % VOICE)
+    print("\n  声(文)   : %s" % VOICE)
+    print("  声(単語) : %s%s" % (VOICE_WORD,
+          ("  ※例外 %d 語" % len(VOICE_FOR)) if VOICE_FOR else ""))
     if n_sp:
         print("  会話の声 : 男性 %s / 女性 %s / 子ども %s%s  (%d本)"
               % (VOICES["M"], VOICES["F"], VOICES["K"],
