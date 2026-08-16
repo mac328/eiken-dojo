@@ -30,6 +30,25 @@ copyRecursive(path.join(root, "audio"), path.join(wwwDir, "audio"));
 // 素どおりするので、Web版の動作は変わらない。
 copyRecursive(path.join(root, "native", "ads.js"), path.join(wwwDir, "ads.js"));
 
+// --release を付けたときだけ、広告をテストから本番に切りかえる。
+// 手で書きかえる運用にすると「戻し忘れ」で
+//   ・開発中に本物の広告に触れてアカウント停止
+//   ・公開したのにテスト広告のままで収益ゼロ
+// という事故が起きるので、ビルドの種類で自動的に決まるようにする。
+// 元の native/ads.js は DEV=true のまま変えない。
+const isRelease = process.argv.includes("--release");
+const adsPath = path.join(wwwDir, "ads.js");
+let ads = fs.readFileSync(adsPath, "utf8");
+const DEV_TRUE = "var DEV = true;";
+const DEV_FALSE = "var DEV = false;";
+if (!ads.includes(DEV_TRUE)) {
+  throw new Error(`native/ads.js に "${DEV_TRUE}" が見つからない（想定外）`);
+}
+if (isRelease) {
+  ads = ads.replace(DEV_TRUE, DEV_FALSE);
+  fs.writeFileSync(adsPath, ads);
+}
+
 const indexPath = path.join(wwwDir, "index.html");
 let html = fs.readFileSync(indexPath, "utf8");
 const tag = '<script src="ads.js"></script>';
@@ -43,4 +62,8 @@ html = html.replace("</body>", `${tag}\n</body>`);
 fs.writeFileSync(indexPath, html);
 
 console.log(`www/ を再生成しました（${wwwDir}）`);
-console.log("  ads.js を差し込みました（アプリ版のみ）");
+console.log(
+  isRelease
+    ? "  ads.js を差し込みました（★本番の広告★ DEV=false）"
+    : "  ads.js を差し込みました（テスト広告 DEV=true）"
+);

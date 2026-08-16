@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sync:www": "node scripts/copy-www.js",
     "cap:sync": "npm run sync:www && npx cap sync",
-    "android:open": "npx cap open android"
+    "android:open": "npx cap open android",
+    "sync:www:release": "node scripts/copy-www.js --release",
+    "cap:sync:release": "npm run sync:www:release && npx cap sync",
+    "build:aab": "npm run cap:sync:release && cd android && gradlew bundleRelease"
   },
   "repository": {
     "type": "git",

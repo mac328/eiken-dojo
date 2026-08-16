@@ -18,3 +18,10 @@ __pycache__/
 # tools/make_icons.py の確認用プレビュー
 # （--install なしで実行すればいつでも作りなおせる）
 icon_preview/
+
+# 署名鍵とそのパスワード。ぜったいにコミットしない。
+# アップロード鍵は失っても Play Console から再発行を申請できるが、
+# 流出すると第三者があなたのアプリとして偽物を投稿できてしまう。
+*.jks
+*.keystore
+keystore.properties
