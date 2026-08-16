@@ -127,6 +127,78 @@
     }
   }
 
+  /* 広告を 見るかどうかを たずねる 画面。
+   *
+   * AdMob の きまりで、リワード広告は 利用者が はっきり
+   * 「はい」を えらんだ あとでしか 出せません。
+   * 面接ボタンは「面接を はじめる」ボタンであって
+   * 「広告に 同意する」ボタンでは ないので、ここで たずねます。
+   * https://support.google.com/admob/answer/7313578 */
+  function askOptIn(onYes, onNo) {
+    var C1 = "#FBF7EE", INK = "#3B2A06", GOLD = "#F59E0B", SUB = "#8A7A5C";
+
+    var back = document.createElement("div");
+    back.setAttribute("style", [
+      "position:fixed", "inset:0", "z-index:2147483000",
+      "background:rgba(0,0,0,.45)",
+      "display:flex", "align-items:center", "justify-content:center",
+      "padding:24px", "box-sizing:border-box",
+      "font-family:'Zen Maru Gothic',sans-serif",
+    ].join(";"));
+
+    var box = document.createElement("div");
+    box.setAttribute("style", [
+      "background:" + C1, "color:" + INK,
+      "border-radius:18px", "padding:22px 20px",
+      "max-width:340px", "width:100%",
+      "box-shadow:0 8px 30px rgba(0,0,0,.25)",
+    ].join(";"));
+
+    var h = document.createElement("div");
+    h.textContent = "面接練習を解放しますか？";
+    h.setAttribute("style", "font-size:18px;font-weight:700;margin-bottom:12px;");
+
+    var p = document.createElement("div");
+    p.setAttribute("style", "font-size:14px;line-height:1.7;color:" + SUB + ";margin-bottom:18px;");
+    p.textContent =
+      "面接は二次試験向けのおまけの機能です。" +
+      "動画広告を最後まで見ると、今日は何度でも練習できます。";
+
+    var yes = document.createElement("button");
+    yes.textContent = "広告を見て解放";
+    yes.setAttribute("style", [
+      "width:100%", "padding:13px", "margin-bottom:8px",
+      "background:" + GOLD, "color:" + INK,
+      "border:none", "border-radius:12px",
+      "font-size:16px", "font-weight:700",
+      "font-family:inherit", "cursor:pointer",
+    ].join(";"));
+
+    var no = document.createElement("button");
+    no.textContent = "やめる";
+    no.setAttribute("style", [
+      "width:100%", "padding:11px",
+      "background:transparent", "color:" + SUB,
+      "border:none", "border-radius:12px",
+      "font-size:15px", "font-family:inherit", "cursor:pointer",
+    ].join(";"));
+
+    function close() {
+      if (back.parentNode) back.parentNode.removeChild(back);
+    }
+    yes.onclick = function () { close(); onYes(); };
+    no.onclick = function () { close(); onNo(); };
+    // 背景を さわった ときも「やめる」あつかいに します
+    back.onclick = function (e) { if (e.target === back) { close(); onNo(); } };
+
+    box.appendChild(h);
+    box.appendChild(p);
+    box.appendChild(yes);
+    box.appendChild(no);
+    back.appendChild(box);
+    document.body.appendChild(back);
+  }
+
   /* 面接に 入る まえに 呼ばれます。
    * go() を 呼べば 面接が はじまります。
    *
@@ -145,7 +217,14 @@
       go();
       return;
     }
+    // ここで かならず 同意を とってから 広告を 出します
+    askOptIn(
+      function () { showRewardThenGo(go); },
+      function () { log("やめるが押されました"); }
+    );
+  }
 
+  function showRewardThenGo(go) {
     var done = false;
     function finish(reason) {
       if (done) return;
