@@ -1,0 +1,5 @@
+node_modules/
+
+# ルートの index.html / audio/ から自動生成される Capacitor ビルド対象
+# （npm run sync:www で再生成できるためコミット不要）
+www/
