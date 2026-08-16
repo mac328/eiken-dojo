@@ -3,3 +3,14 @@ node_modules/
 # ルートの index.html / audio/ から自動生成される Capacitor ビルド対象
 # （npm run sync:www で再生成できるためコミット不要）
 www/
+
+# 声とピッチの聴きくらべ用の一時ファイル
+# （tools/try_voice_pitch.py でいつでも作りなおせる）
+audio_test/
+
+# tools/try_voices.py の出力（声の聴きくらべ用）
+audio_voices/
+
+# Python が自動で作る中間ファイル
+__pycache__/
+*.pyc
