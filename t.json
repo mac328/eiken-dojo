@@ -1,0 +1,36 @@
+[ {
+   "description": "{\"attached\":false,\"empty\":true,\"never_attached\":true,\"screenX\":0,\"screenY\":0,\"visible\":true}",
+   "devtoolsFrontendUrl": "https://chrome-devtools-frontend.appspot.com/serve_rev/@24b04c927b23c39cf9c5227cc8dc6f64a744c8e9/inspector.html?ws=localhost:9222/devtools/page/69657DA5386DFA61A3F39CB5945AEEEB",
+   "faviconUrl": "https://googleads.g.doubleclick.net/favicon.ico",
+   "id": "69657DA5386DFA61A3F39CB5945AEEEB",
+   "title": "googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html",
+   "type": "page",
+   "url": "https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/69657DA5386DFA61A3F39CB5945AEEEB"
+}, {
+   "description": "{\"attached\":false,\"empty\":true,\"never_attached\":true,\"screenX\":0,\"screenY\":0,\"visible\":true}",
+   "devtoolsFrontendUrl": "https://chrome-devtools-frontend.appspot.com/serve_rev/@24b04c927b23c39cf9c5227cc8dc6f64a744c8e9/inspector.html?ws=localhost:9222/devtools/page/3693826E7CA8BAA3576167B7B6BBDF3C",
+   "faviconUrl": "https://googleads.g.doubleclick.net/favicon.ico",
+   "id": "3693826E7CA8BAA3576167B7B6BBDF3C",
+   "title": "about:blank",
+   "type": "page",
+   "url": "about:blank",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/3693826E7CA8BAA3576167B7B6BBDF3C"
+}, {
+   "description": "{\"attached\":false,\"empty\":true,\"never_attached\":true,\"screenX\":0,\"screenY\":0,\"visible\":true}",
+   "devtoolsFrontendUrl": "https://chrome-devtools-frontend.appspot.com/serve_rev/@24b04c927b23c39cf9c5227cc8dc6f64a744c8e9/inspector.html?ws=localhost:9222/devtools/page/DAC0DF36A4278B04B06BB3F3E83D0313",
+   "faviconUrl": "https://googleads.g.doubleclick.net/favicon.ico",
+   "id": "DAC0DF36A4278B04B06BB3F3E83D0313",
+   "title": "googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html",
+   "type": "page",
+   "url": "https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/DAC0DF36A4278B04B06BB3F3E83D0313"
+}, {
+   "description": "{\"attached\":true,\"empty\":false,\"height\":2150,\"never_attached\":false,\"screenX\":0,\"screenY\":118,\"visible\":false,\"width\":1080}",
+   "devtoolsFrontendUrl": "https://chrome-devtools-frontend.appspot.com/serve_rev/@24b04c927b23c39cf9c5227cc8dc6f64a744c8e9/inspector.html?ws=localhost:9222/devtools/page/2067341A66E0BEBF2D7FDAC19DF7A13B",
+   "id": "2067341A66E0BEBF2D7FDAC19DF7A13B",
+   "title": "英検準2級 反復トレ",
+   "type": "page",
+   "url": "https://localhost/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/2067341A66E0BEBF2D7FDAC19DF7A13B"
+} ]
