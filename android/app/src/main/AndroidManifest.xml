@@ -24,6 +24,12 @@
 
         </activity>
 
+        <!-- AdMob のアプリID。ここが間違っていると起動直後にクラッシュする。
+             広告ユニットIDではなく、区切りが「~」のアプリIDを入れること -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4259051521565413~6359046249" />
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"
