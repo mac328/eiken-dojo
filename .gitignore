@@ -14,3 +14,7 @@ audio_voices/
 # Python が自動で作る中間ファイル
 __pycache__/
 *.pyc
+
+# tools/make_icons.py の確認用プレビュー
+# （--install なしで実行すればいつでも作りなおせる）
+icon_preview/
