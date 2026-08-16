@@ -155,13 +155,15 @@
     ].join(";"));
 
     var h = document.createElement("div");
-    h.textContent = "面接練習を解放しますか？";
-    h.setAttribute("style", "font-size:18px;font-weight:700;margin-bottom:12px;");
+    // ボタンの 名まえ（二次面接シミュレーション）と そろえます
+    h.textContent = "二次面接シミュレーションを解放しますか？";
+    h.setAttribute("style", "font-size:18px;font-weight:700;line-height:1.5;margin-bottom:12px;");
 
     var p = document.createElement("div");
     p.setAttribute("style", "font-size:14px;line-height:1.7;color:" + SUB + ";margin-bottom:18px;");
+    // 見出しで 何の話か 分かるので、主語は はぶきます
     p.textContent =
-      "面接は二次試験向けのおまけの機能です。" +
+      "二次面接向けのおまけの機能です。" +
       "動画広告を最後まで見ると、今日は何度でも練習できます。";
 
     var yes = document.createElement("button");
