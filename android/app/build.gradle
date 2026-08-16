@@ -3,7 +3,13 @@ apply plugin: 'com.android.application'
 // 署名の設定は keystore.properties から読む。
 // このファイルはパスワードを含むので .gitignore 済み（コミットされない）。
 // ファイルが無いときは署名なしでビルドする（デバッグ用途）。
-def keystorePropsFile = rootProject.file("keystore.properties")
+//
+// 注意: Gradle の rootProject は android/ を指す（settings.gradle がそこにある）。
+// 鍵と設定はリポジトリ直下に置いてあるので、1つ上をたどること。
+// ここを間違えるとファイルが見つからず、
+// エラーも出ないまま「署名なしのAAB」ができてしまう。
+def repoRoot = rootProject.file("..")
+def keystorePropsFile = new File(repoRoot, "keystore.properties")
 def keystoreProps = new Properties()
 if (keystorePropsFile.exists()) {
     keystoreProps.load(new FileInputStream(keystorePropsFile))
@@ -28,7 +34,7 @@ android {
     signingConfigs {
         release {
             if (keystorePropsFile.exists()) {
-                storeFile rootProject.file(keystoreProps['storeFile'])
+                storeFile new File(repoRoot, keystoreProps['storeFile'])
                 storePassword keystoreProps['storePassword']
                 keyAlias keystoreProps['keyAlias']
                 keyPassword keystoreProps['keyPassword']
