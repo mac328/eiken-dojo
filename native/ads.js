@@ -37,6 +37,9 @@
   // 本体の 進捗(eikenP2v1)とは 分けます。壊さないためです。
   var UNLOCK_KEY = "eikenP2_iv_unlock";
 
+  // これまでに 終えた セットの 数（はじめての 1セットを 見わけるため）
+  var SETS_KEY = "eikenP2_sets_done";
+
   // ===== ここから 実装 =============================================
   var C = window.Capacitor;
   if (!C || !C.isNativePlatform || !C.isNativePlatform()) return; // Web版は 何も しない
@@ -89,7 +92,31 @@
       });
   }
 
+  /* これまでに 終えた セットの 数。はじめての 1セットで
+   * 広告を 出さない ためだけに つかいます。 */
+  function setsDone() {
+    try {
+      return parseInt(localStorage.getItem(SETS_KEY) || "0", 10) || 0;
+    } catch (e) {
+      return 0;
+    }
+  }
+
   function onSetEnd() {
+    var done = setsDone();
+    try {
+      localStorage.setItem(SETS_KEY, String(done + 1));
+    } catch (e) {
+      /* 数えられなくても 先へ すすみます */
+    }
+    // 入れたばかりの 人が 最初の 1セットで
+    //「毎回 広告が 出るのか」と 思って やめてしまうのを さけます。
+    // 2セット目に すすんだ 人は すでに 中身を 見てくれた 人なので、
+    // そこからは ふつうに 出します。
+    if (done === 0) {
+      log("はじめての1セットなので広告は出しません");
+      return;
+    }
     if (!ready || !interstitialReady) return;
     var now = Date.now();
     if (now - lastShown < MIN_GAP_MS) {
