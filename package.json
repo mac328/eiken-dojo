@@ -10,7 +10,7 @@
     "android:open": "npx cap open android",
     "sync:www:release": "node scripts/copy-www.js --release",
     "cap:sync:release": "npm run sync:www:release && npx cap sync",
-    "build:aab": "npm run cap:sync:release && cd android && gradlew bundleRelease"
+    "build:aab": "npm run cap:sync:release && cd android && .\\gradlew.bat bundleRelease"
   },
   "repository": {
     "type": "git",

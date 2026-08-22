@@ -82,6 +82,10 @@ npm run build:aab
 
 `android/app/build/outputs/bundle/release/app-release.aab` ができる。
 
+**アップロードのたびに `android/app/build.gradle` の `versionCode` を
+1つ上げること。** 同じ番号は Play Console が受けつけない。
+（1 = 内部テスト初回 / 2 = 文字を大きくした版）
+
 **このコマンドのときだけ、広告が本番用に切りかわる**
 （`scripts/copy-www.js` が `www/ads.js` の `DEV` を false にする。
 元の `native/ads.js` は true のまま）。
